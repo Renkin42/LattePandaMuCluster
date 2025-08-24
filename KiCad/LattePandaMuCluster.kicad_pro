@@ -676,6 +676,10 @@
     [
       "0d5c85a9-6d90-4546-851e-a7debe6b8651",
       "HDMI"
+    ],
+    [
+      "f577f65a-1a1c-4b75-8a85-8871ada08d9d",
+      "USB Type C"
     ]
   ],
   "text_variables": {}
