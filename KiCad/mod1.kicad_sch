@@ -8083,6 +8083,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 237.49) (xy 327.66 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e6a77d-6779-4a36-8b5d-fc5e500c5913")
+	)
+	(wire
+		(pts
 			(xy 212.09 309.88) (xy 218.44 309.88)
 		)
 		(stroke
@@ -8210,6 +8220,16 @@
 			(type default)
 		)
 		(uuid "21d511d0-d054-4ff4-90ce-06433165e950")
+	)
+	(wire
+		(pts
+			(xy 325.12 234.95) (xy 327.66 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24218abf-cf5c-4b31-927b-c45d110a7897")
 	)
 	(wire
 		(pts
@@ -11538,6 +11558,17 @@
 		)
 		(uuid "476c15b4-58c0-4a53-9001-4775817c68f8")
 	)
+	(hierarchical_label "PGM_SDA"
+		(shape bidirectional)
+		(at 327.66 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52fbb7c2-0f3e-4826-9456-00cac0291681")
+	)
 	(hierarchical_label "RUSB_1{USB3}"
 		(shape input)
 		(at 209.55 93.98 180)
@@ -11714,7 +11745,7 @@
 		)
 		(uuid "cd1af5f0-7682-421c-8a31-076d04b99044")
 	)
-	(hierarchical_label "TYPE_C_INT"
+	(hierarchical_label "PGM_INT"
 		(shape input)
 		(at 327.66 189.23 0)
 		(effects
@@ -11724,6 +11755,17 @@
 			(justify left)
 		)
 		(uuid "d90fdae9-cd23-41f2-b3aa-cc6fc85cff34")
+	)
+	(hierarchical_label "PGM_SCL"
+		(shape output)
+		(at 327.66 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd0341b9-6bb5-4f3f-b763-aed2ac8bb290")
 	)
 	(hierarchical_label "REAR_DISPLAY{HDMI}"
 		(shape input)
