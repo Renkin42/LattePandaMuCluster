@@ -12661,7 +12661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "B0520W"
 			(at 341.63 59.69 90)
 			(effects
 				(font
@@ -13349,7 +13349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "B0520W"
 			(at 396.24 59.69 90)
 			(effects
 				(font
@@ -14360,7 +14360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "21.5k"
 			(at 391.16 73.6599 0)
 			(effects
 				(font
