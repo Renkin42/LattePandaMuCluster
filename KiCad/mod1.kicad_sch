@@ -7297,6 +7297,10 @@
 		(uuid "095b9751-0249-47f3-bf55-7eb4d4d959ea")
 	)
 	(no_connect
+		(at 325.12 138.43)
+		(uuid "11d757e8-7d8c-484a-bd60-021fb631f5d2")
+	)
+	(no_connect
 		(at 325.12 80.01)
 		(uuid "179dc055-3320-4dd7-9a5f-def0abbbde51")
 	)
@@ -7511,6 +7515,10 @@
 	(no_connect
 		(at 325.12 294.64)
 		(uuid "b447a640-6725-47d3-b5f0-201e7eac1184")
+	)
+	(no_connect
+		(at 325.12 135.89)
+		(uuid "b4b743e2-474e-49c4-a385-906fbe0fe13e")
 	)
 	(no_connect
 		(at 243.84 293.37)

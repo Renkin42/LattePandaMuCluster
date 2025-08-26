@@ -2755,9 +2755,9 @@
 				(justify left)
 			)
 		)
-		(pin "SLOT4_PCIEx4{PCIE}" input
+		(pin "SLOT4x4{PCIE}" input
 			(at 220.98 151.13 180)
-			(uuid "e2c2239f-f6e5-49ea-b901-c06f12ee4be7")
+			(uuid "0a8b4fe3-06be-4566-a769-8b65a1a37967")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,9 +2765,9 @@
 				(justify left)
 			)
 		)
-		(pin "SLOT5_PCIEx4{PCIE}" input
+		(pin "SLOT5x4{PCIE}" input
 			(at 220.98 130.81 180)
-			(uuid "15692ad2-a8d4-4842-9976-919e4593404e")
+			(uuid "3c03b2ec-d88f-44da-9cc3-8c6c51270f70")
 			(effects
 				(font
 					(size 1.27 1.27)

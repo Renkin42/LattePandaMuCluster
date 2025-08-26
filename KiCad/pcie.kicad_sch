@@ -3777,6 +3777,10 @@
 		(uuid "0d05fa9f-da18-46b5-bf9f-6a0490aa02e9")
 	)
 	(no_connect
+		(at 411.48 175.26)
+		(uuid "0d1c49e4-e778-4008-b8ec-8eb0eea02324")
+	)
+	(no_connect
 		(at 115.57 158.75)
 		(uuid "10cd5b69-d9de-47f1-9211-cd3f8d0278b6")
 	)
@@ -3999,6 +4003,10 @@
 	(no_connect
 		(at 462.28 132.08)
 		(uuid "acbf7832-3bf5-4839-b776-de212d19e44b")
+	)
+	(no_connect
+		(at 411.48 177.8)
+		(uuid "ad336c60-fa86-476f-a6ec-6815fd3bfe1b")
 	)
 	(no_connect
 		(at 115.57 171.45)
@@ -4984,13 +4992,13 @@
 	)
 	(bus
 		(pts
-			(xy 386.08 106.68) (xy 386.08 121.92)
+			(xy 386.08 99.06) (xy 386.08 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a43a88b-7daf-4675-8b74-bf9075717209")
+		(uuid "1b281aa9-00e8-4a85-a05b-b462cea55d63")
 	)
 	(wire
 		(pts
@@ -5001,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "1b5a50cc-b6f3-46eb-b477-bb67f83f5554")
-	)
-	(bus
-		(pts
-			(xy 90.17 100.33) (xy 90.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d63d54b-4fd3-4c1c-9731-7a32c86696b7")
 	)
 	(bus
 		(pts
@@ -5262,6 +5260,16 @@
 		)
 		(uuid "31b4d446-67d9-4733-8a02-12be1624fd4a")
 	)
+	(bus
+		(pts
+			(xy 386.08 104.14) (xy 386.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3207e397-3f06-475e-9b39-f31ef81e1288")
+	)
 	(wire
 		(pts
 			(xy 419.1 251.46) (xy 419.1 255.27)
@@ -5322,16 +5330,6 @@
 		)
 		(uuid "34ae6fce-b648-49b4-a900-87bc38f1552d")
 	)
-	(bus
-		(pts
-			(xy 386.08 99.06) (xy 386.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3542db89-13d8-4330-bfc9-78b7c2fd000d")
-	)
 	(wire
 		(pts
 			(xy 459.74 271.78) (xy 459.74 273.05)
@@ -5362,6 +5360,16 @@
 		)
 		(uuid "3817abc2-7869-48bd-a524-f79b8f36b101")
 	)
+	(bus
+		(pts
+			(xy 90.17 97.79) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382f625d-ca22-415e-9cb9-5b1278b71b2c")
+	)
 	(wire
 		(pts
 			(xy 419.1 271.78) (xy 419.1 273.05)
@@ -5391,6 +5399,16 @@
 			(type default)
 		)
 		(uuid "39e3892b-8d26-4023-9665-82e2717e0e63")
+	)
+	(bus
+		(pts
+			(xy 90.17 95.25) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c336bd6-387e-4069-a74e-026e3e559ae8")
 	)
 	(wire
 		(pts
@@ -5511,6 +5529,16 @@
 			(type default)
 		)
 		(uuid "49d83ab7-8eab-43b1-ad0b-d227ee1a767a")
+	)
+	(bus
+		(pts
+			(xy 90.17 92.71) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a923ad9-f6f5-494c-a53c-713fd1212d21")
 	)
 	(wire
 		(pts
@@ -5722,16 +5750,6 @@
 		)
 		(uuid "597bf73e-18a3-4f5b-bb29-8c675dd6d63a")
 	)
-	(bus
-		(pts
-			(xy 386.08 101.6) (xy 386.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f1bdc0-5c0a-48d7-9d51-7fca5f0d83a6")
-	)
 	(wire
 		(pts
 			(xy 436.88 67.31) (xy 436.88 69.85)
@@ -5814,16 +5832,6 @@
 	)
 	(bus
 		(pts
-			(xy 386.08 104.14) (xy 386.08 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60020d99-9cb6-4b9a-8a9b-8751954dcb94")
-	)
-	(bus
-		(pts
 			(xy 398.78 312.42) (xy 398.78 314.96)
 		)
 		(stroke
@@ -5891,6 +5899,16 @@
 			(type default)
 		)
 		(uuid "68b4dbac-fec9-4d07-9de7-1caf3d7d998c")
+	)
+	(bus
+		(pts
+			(xy 90.17 87.63) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a3a7f9-ad9a-4b8b-9b1b-ddc7e1542ebb")
 	)
 	(wire
 		(pts
@@ -6742,16 +6760,6 @@
 		)
 		(uuid "c0b1a846-365b-42ed-8774-af7a184bffdc")
 	)
-	(bus
-		(pts
-			(xy 90.17 87.63) (xy 90.17 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1668c73-513a-4e74-9b06-5de6aaf39fc2")
-	)
 	(wire
 		(pts
 			(xy 450.85 250.19) (xy 450.85 247.65)
@@ -6922,6 +6930,16 @@
 		)
 		(uuid "ce402c9f-6b17-4c74-ae16-8423f7fecddf")
 	)
+	(bus
+		(pts
+			(xy 90.17 100.33) (xy 90.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce99216d-f5f6-4a7b-9861-982eeb8f98bd")
+	)
 	(wire
 		(pts
 			(xy 469.9 116.84) (xy 473.71 116.84)
@@ -7044,13 +7062,13 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 92.71) (xy 90.17 95.25)
+			(xy 386.08 106.68) (xy 386.08 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d692e070-bdb9-43b9-b64f-6647cf325747")
+		(uuid "d7077a0f-591e-42f6-93fe-5c22dc254ad2")
 	)
 	(wire
 		(pts
@@ -7312,16 +7330,6 @@
 		)
 		(uuid "ecf8c1a2-fcbf-4798-9be0-525137ffa22f")
 	)
-	(bus
-		(pts
-			(xy 90.17 95.25) (xy 90.17 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8f78c2-0b0a-4074-9124-600a3dd990b9")
-	)
 	(wire
 		(pts
 			(xy 424.18 251.46) (xy 424.18 255.27)
@@ -7331,16 +7339,6 @@
 			(type default)
 		)
 		(uuid "ee27307b-195e-4c11-9c6d-99bc233c4a93")
-	)
-	(bus
-		(pts
-			(xy 90.17 97.79) (xy 90.17 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee2cf9c-7a7c-432a-9754-936eb2c59fe2")
 	)
 	(wire
 		(pts
@@ -7452,7 +7450,17 @@
 		)
 		(uuid "fadff2bb-9de0-4e5c-9e77-895657ffc28a")
 	)
-	(label "SLOT5_PCIEx4.Rx1+"
+	(bus
+		(pts
+			(xy 386.08 101.6) (xy 386.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb68d567-a02a-465c-8ebf-20c87c89246f")
+	)
+	(label "SLOT5x4.Rx1+"
 		(at 457.2 320.04 0)
 		(effects
 			(font
@@ -7462,7 +7470,7 @@
 		)
 		(uuid "040f2d53-97e3-49be-b595-91117249a39b")
 	)
-	(label "SLOT4_PCIEx4.Tx2-"
+	(label "SLOT4x4.Tx2-"
 		(at 99.06 321.31 0)
 		(effects
 			(font
@@ -7472,7 +7480,7 @@
 		)
 		(uuid "0e8cf001-e206-4458-8b52-d0f3aa6879c2")
 	)
-	(label "SLOT5_PCIEx4.SMBDAT"
+	(label "SLOT5x4.SMBDAT"
 		(at 402.59 287.02 0)
 		(effects
 			(font
@@ -7492,7 +7500,7 @@
 		)
 		(uuid "1389c9f2-b948-49be-9ecf-b7d550513e9e")
 	)
-	(label "SLOT4_PCIEx4.Rx0-"
+	(label "SLOT4x4.Rx0-"
 		(at 152.4 311.15 0)
 		(effects
 			(font
@@ -7502,7 +7510,7 @@
 		)
 		(uuid "179984ba-9181-4793-a999-a512184f3694")
 	)
-	(label "SLOT5_PCIEx4.Tx1-"
+	(label "SLOT5x4.Tx1-"
 		(at 403.86 322.58 0)
 		(effects
 			(font
@@ -7522,7 +7530,7 @@
 		)
 		(uuid "1936973f-b95c-4570-91a4-2663b00d3935")
 	)
-	(label "SLOT2_M2E_PCIE.Tx0-"
+	(label "SLOT2_M2E.Tx0-"
 		(at 93.98 97.79 0)
 		(effects
 			(font
@@ -7532,7 +7540,7 @@
 		)
 		(uuid "1b9c78b8-dc14-4826-bdf1-3e82cb4cfdef")
 	)
-	(label "SLOT5_PCIEx4.~{PLTRST}"
+	(label "SLOT5x4.~{PLTRST}"
 		(at 457.2 294.64 0)
 		(effects
 			(font
@@ -7542,7 +7550,7 @@
 		)
 		(uuid "1e161110-8724-4d35-b36b-9f6887dad217")
 	)
-	(label "SLOT5_PCIEx4.Tx2+"
+	(label "SLOT5x4.Tx2+"
 		(at 403.86 325.12 0)
 		(effects
 			(font
@@ -7552,7 +7560,7 @@
 		)
 		(uuid "1ec2ccbb-ebdd-46dc-a23d-9df8e45dbad6")
 	)
-	(label "SLOT5_PCIEx4.REFCLK+"
+	(label "SLOT5x4.REFCLK+"
 		(at 401.32 292.1 0)
 		(effects
 			(font
@@ -7562,7 +7570,7 @@
 		)
 		(uuid "25b5d05d-0249-4bfb-8aa5-55d138009a8a")
 	)
-	(label "SLOT4_PCIEx4.Rx2-"
+	(label "SLOT4x4.Rx2-"
 		(at 152.4 321.31 0)
 		(effects
 			(font
@@ -7572,7 +7580,7 @@
 		)
 		(uuid "2ead1c0a-9163-434a-94a3-574443713300")
 	)
-	(label "SLOT5_PCIEx4.Rx0-"
+	(label "SLOT5x4.Rx0-"
 		(at 457.2 317.5 0)
 		(effects
 			(font
@@ -7582,7 +7590,7 @@
 		)
 		(uuid "2fa02083-d4ac-4cd6-a07e-2a3ff7174bbc")
 	)
-	(label "SLOT4_PCIEx4.Tx1+"
+	(label "SLOT4x4.Tx1+"
 		(at 99.06 313.69 0)
 		(effects
 			(font
@@ -7592,7 +7600,7 @@
 		)
 		(uuid "307d6f54-f54b-4140-ab21-2b5d620552ea")
 	)
-	(label "SLOT4_PCIEx4.Tx1-"
+	(label "SLOT4x4.Tx1-"
 		(at 99.06 316.23 0)
 		(effects
 			(font
@@ -7602,7 +7610,7 @@
 		)
 		(uuid "32b7f6cf-8f49-4fec-b8e4-284c8c76bba6")
 	)
-	(label "SLOT5_PCIEx4.Rx3-"
+	(label "SLOT5x4.Rx3-"
 		(at 457.2 332.74 0)
 		(effects
 			(font
@@ -7622,7 +7630,7 @@
 		)
 		(uuid "348b60bd-0513-41b1-aaf6-ed2905e8923e")
 	)
-	(label "SLOT5_PCIEx4.Rx3+"
+	(label "SLOT5x4.Rx3+"
 		(at 457.2 330.2 0)
 		(effects
 			(font
@@ -7632,7 +7640,7 @@
 		)
 		(uuid "38ca5ada-790d-437f-8f95-5763b8a3e05a")
 	)
-	(label "SLOT3_M2E_PCIE.Tx0-"
+	(label "SLOT3_M2E.Tx0-"
 		(at 389.89 104.14 0)
 		(effects
 			(font
@@ -7652,7 +7660,7 @@
 		)
 		(uuid "3db48506-05ce-4fd7-a1c1-24a6c8c62344")
 	)
-	(label "SLOT3_M2E_PCIE.Tx0+"
+	(label "SLOT3_M2E.Tx0+"
 		(at 389.89 101.6 0)
 		(effects
 			(font
@@ -7672,7 +7680,7 @@
 		)
 		(uuid "41a8e5d0-c46e-4e3a-8eb0-7ec1328a6dce")
 	)
-	(label "SLOT5_PCIEx4.SMBCLK"
+	(label "SLOT5x4.SMBCLK"
 		(at 402.59 284.48 0)
 		(effects
 			(font
@@ -7692,7 +7700,7 @@
 		)
 		(uuid "45aa914f-c9da-4230-8db8-26ae81711225")
 	)
-	(label "SLOT2_M2E_PCIE.Rx0-"
+	(label "SLOT2_M2E.Rx0-"
 		(at 93.98 102.87 0)
 		(effects
 			(font
@@ -7702,7 +7710,7 @@
 		)
 		(uuid "4621d941-b099-4d80-b3c2-7fbb57add5b2")
 	)
-	(label "SLOT3_M2E_PCIE.Rx0+"
+	(label "SLOT3_M2E.Rx0+"
 		(at 389.89 106.68 0)
 		(effects
 			(font
@@ -7712,7 +7720,7 @@
 		)
 		(uuid "4702546d-e6b1-41e4-9615-3d318fcd5ddd")
 	)
-	(label "SLOT5_PCIEx4.Tx2-"
+	(label "SLOT5x4.Tx2-"
 		(at 403.86 327.66 0)
 		(effects
 			(font
@@ -7722,7 +7730,7 @@
 		)
 		(uuid "47d86941-d9d8-4883-84e9-55f66f5f59d0")
 	)
-	(label "SLOT5_PCIEx4.Rx2-"
+	(label "SLOT5x4.Rx2-"
 		(at 457.2 327.66 0)
 		(effects
 			(font
@@ -7742,7 +7750,7 @@
 		)
 		(uuid "4ca5ee7f-bf2e-4027-a6b7-11754b415cc1")
 	)
-	(label "SLOT5_PCIEx4.Tx0+"
+	(label "SLOT5x4.Tx0+"
 		(at 403.86 314.96 0)
 		(effects
 			(font
@@ -7752,7 +7760,7 @@
 		)
 		(uuid "4ff66795-f2a4-4c7a-b30a-25685571d683")
 	)
-	(label "SLOT4_PCIEx4.Rx1-"
+	(label "SLOT4x4.Rx1-"
 		(at 152.4 316.23 0)
 		(effects
 			(font
@@ -7762,7 +7770,7 @@
 		)
 		(uuid "59eab85f-c34c-4cb5-9b4d-ab242cf426eb")
 	)
-	(label "SLOT5_PCIEx4.~{WAKE}"
+	(label "SLOT5x4.~{WAKE}"
 		(at 457.2 292.1 0)
 		(effects
 			(font
@@ -7772,7 +7780,7 @@
 		)
 		(uuid "59ef5bc7-12ef-4d60-b7a5-511f8c8d2fca")
 	)
-	(label "SLOT5_PCIEx4.Tx3+"
+	(label "SLOT5x4.Tx3+"
 		(at 403.86 330.2 0)
 		(effects
 			(font
@@ -7792,7 +7800,7 @@
 		)
 		(uuid "6e1923d5-b2a3-4945-b4d4-173a0f219aa7")
 	)
-	(label "SLOT4_PCIEx4{PCIE}"
+	(label "SLOT4x4{PCIE}"
 		(at 193.04 280.67 180)
 		(effects
 			(font
@@ -7802,7 +7810,7 @@
 		)
 		(uuid "70918421-b730-47bf-82dd-d668d0971e38")
 	)
-	(label "SLOT4_PCIEx4.Tx3+"
+	(label "SLOT4x4.Tx3+"
 		(at 99.06 323.85 0)
 		(effects
 			(font
@@ -7832,7 +7840,7 @@
 		)
 		(uuid "7dfdf315-bcb8-4903-b182-0f5766a52ebd")
 	)
-	(label "SLOT4_PCIEx4.Rx3+"
+	(label "SLOT4x4.Rx3+"
 		(at 152.4 323.85 0)
 		(effects
 			(font
@@ -7842,7 +7850,7 @@
 		)
 		(uuid "816b5136-6392-4f50-9243-984deee38137")
 	)
-	(label "SLOT5_PCIEx4.REFCLK-"
+	(label "SLOT5x4.REFCLK-"
 		(at 401.32 294.64 0)
 		(effects
 			(font
@@ -7852,7 +7860,7 @@
 		)
 		(uuid "86c0a174-def6-4806-859c-eca1f2f26891")
 	)
-	(label "SLOT4_PCIEx4.REFCLK-"
+	(label "SLOT4x4.REFCLK-"
 		(at 96.52 288.29 0)
 		(effects
 			(font
@@ -7862,7 +7870,7 @@
 		)
 		(uuid "87993d38-17ea-42eb-8659-f137a6ac7587")
 	)
-	(label "SLOT4_PCIEx4.Tx2+"
+	(label "SLOT4x4.Tx2+"
 		(at 99.06 318.77 0)
 		(effects
 			(font
@@ -7872,7 +7880,7 @@
 		)
 		(uuid "8e4a292b-0076-47af-a526-9ae57a50d417")
 	)
-	(label "SLOT4_PCIEx4.Tx0-"
+	(label "SLOT4x4.Tx0-"
 		(at 99.06 311.15 0)
 		(effects
 			(font
@@ -7882,7 +7890,7 @@
 		)
 		(uuid "91c28543-29f6-49be-8d79-217debcc7d48")
 	)
-	(label "SLOT4_PCIEx4.REFCLK+"
+	(label "SLOT4x4.REFCLK+"
 		(at 96.52 285.75 0)
 		(effects
 			(font
@@ -7892,7 +7900,7 @@
 		)
 		(uuid "a02d6e30-583c-4a34-b0f0-d4c8906dbf40")
 	)
-	(label "SLOT4_PCIEx4.Tx0+"
+	(label "SLOT4x4.Tx0+"
 		(at 99.06 308.61 0)
 		(effects
 			(font
@@ -7902,7 +7910,7 @@
 		)
 		(uuid "a4d8424f-20c1-4909-88ed-f421ef49a633")
 	)
-	(label "SLOT5_PCIEx4{PCIE}"
+	(label "SLOT5x4{PCIE}"
 		(at 497.84 287.02 180)
 		(effects
 			(font
@@ -7912,7 +7920,7 @@
 		)
 		(uuid "a58064ef-773a-4eb4-b6c3-dc4fe0678836")
 	)
-	(label "SLOT5_PCIEx4.Tx1+"
+	(label "SLOT5x4.Tx1+"
 		(at 403.86 320.04 0)
 		(effects
 			(font
@@ -7922,7 +7930,7 @@
 		)
 		(uuid "af264f12-52c0-4db2-b2c9-0caff6ed4515")
 	)
-	(label "SLOT2_M2E_PCIE.Rx0+"
+	(label "SLOT2_M2E.Rx0+"
 		(at 93.98 100.33 0)
 		(effects
 			(font
@@ -7942,7 +7950,7 @@
 		)
 		(uuid "b0d3f7f3-273f-483e-9177-e8cb93312f60")
 	)
-	(label "SLOT4_PCIEx4.Rx1+"
+	(label "SLOT4x4.Rx1+"
 		(at 152.4 313.69 0)
 		(effects
 			(font
@@ -7962,7 +7970,7 @@
 		)
 		(uuid "b833d498-3137-46de-9f1b-840b4724147d")
 	)
-	(label "SLOT4_PCIEx4.Tx3-"
+	(label "SLOT4x4.Tx3-"
 		(at 99.06 326.39 0)
 		(effects
 			(font
@@ -7972,7 +7980,7 @@
 		)
 		(uuid "bd65479f-ae86-4f9a-9bd3-c46917768d45")
 	)
-	(label "SLOT4_PCIEx4.~{WAKE}"
+	(label "SLOT4x4.~{WAKE}"
 		(at 152.4 285.75 0)
 		(effects
 			(font
@@ -7982,7 +7990,7 @@
 		)
 		(uuid "bf4808f3-95c4-43f2-99a8-cd4811d0f74b")
 	)
-	(label "SLOT4_PCIEx4.Rx3-"
+	(label "SLOT4x4.Rx3-"
 		(at 152.4 326.39 0)
 		(effects
 			(font
@@ -7992,7 +8000,7 @@
 		)
 		(uuid "c92c0c11-12a7-4070-bba0-01b783ee236f")
 	)
-	(label "SLOT4_PCIEx4.SMBCLK"
+	(label "SLOT4x4.SMBCLK"
 		(at 97.79 278.13 0)
 		(effects
 			(font
@@ -8002,7 +8010,7 @@
 		)
 		(uuid "ca115dc2-d7dd-42f3-94df-dc61bd1e24ad")
 	)
-	(label "SLOT4_PCIEx4.Rx0+"
+	(label "SLOT4x4.Rx0+"
 		(at 152.4 308.61 0)
 		(effects
 			(font
@@ -8022,7 +8030,7 @@
 		)
 		(uuid "cdd947db-e3b7-4f9b-9f17-188d42f563b5")
 	)
-	(label "SLOT2_M2E_PCIE.Tx0+"
+	(label "SLOT2_M2E.Tx0+"
 		(at 93.98 95.25 0)
 		(effects
 			(font
@@ -8032,7 +8040,7 @@
 		)
 		(uuid "d3bcafe2-d625-4be9-9f20-67ae6c6ff357")
 	)
-	(label "SLOT4_PCIEx4.Rx2+"
+	(label "SLOT4x4.Rx2+"
 		(at 152.4 318.77 0)
 		(effects
 			(font
@@ -8042,7 +8050,7 @@
 		)
 		(uuid "d93ee32d-300e-4294-900a-2e8953145624")
 	)
-	(label "SLOT5_PCIEx4.Rx1-"
+	(label "SLOT5x4.Rx1-"
 		(at 457.2 322.58 0)
 		(effects
 			(font
@@ -8052,7 +8060,7 @@
 		)
 		(uuid "daa33d9f-7a2d-4644-8edd-b92bb6751b84")
 	)
-	(label "SLOT4_PCIEx4.~{PLTRST}"
+	(label "SLOT4x4.~{PLTRST}"
 		(at 152.4 288.29 0)
 		(effects
 			(font
@@ -8072,7 +8080,7 @@
 		)
 		(uuid "e530bdff-78e4-4d7f-8413-87be07499f4d")
 	)
-	(label "SLOT5_PCIEx4.Tx0-"
+	(label "SLOT5x4.Tx0-"
 		(at 403.86 317.5 0)
 		(effects
 			(font
@@ -8082,7 +8090,7 @@
 		)
 		(uuid "f180a5c7-fe87-4bbd-b34d-e14f387aec45")
 	)
-	(label "SLOT5_PCIEx4.Rx0+"
+	(label "SLOT5x4.Rx0+"
 		(at 457.2 314.96 0)
 		(effects
 			(font
@@ -8092,7 +8100,7 @@
 		)
 		(uuid "f61594c0-26ee-4461-a7dd-edf1903cfa97")
 	)
-	(label "SLOT5_PCIEx4.Rx2+"
+	(label "SLOT5x4.Rx2+"
 		(at 457.2 325.12 0)
 		(effects
 			(font
@@ -8102,7 +8110,7 @@
 		)
 		(uuid "f645b232-081d-492d-b7a3-76cc934f1eac")
 	)
-	(label "SLOT4_PCIEx4.SMBDAT"
+	(label "SLOT4x4.SMBDAT"
 		(at 97.79 280.67 0)
 		(effects
 			(font
@@ -8112,7 +8120,7 @@
 		)
 		(uuid "f6ebf601-bd9a-4f00-9728-f61b2f49e877")
 	)
-	(label "SLOT5_PCIEx4.Tx3-"
+	(label "SLOT5x4.Tx3-"
 		(at 403.86 332.74 0)
 		(effects
 			(font
@@ -8122,7 +8130,7 @@
 		)
 		(uuid "f74c50bc-66a4-4eae-8a35-f113daa85e62")
 	)
-	(label "SLOT3_M2E_PCIE.Rx0-"
+	(label "SLOT3_M2E.Rx0-"
 		(at 389.89 109.22 0)
 		(effects
 			(font
@@ -8132,7 +8140,7 @@
 		)
 		(uuid "ffe14a6c-e547-4d9c-8293-63eff524cf5d")
 	)
-	(hierarchical_label "SLOT5_PCIEx4{PCIE}"
+	(hierarchical_label "SLOT5x4{PCIE}"
 		(shape input)
 		(at 396.24 280.67 180)
 		(effects
@@ -8143,7 +8151,7 @@
 		)
 		(uuid "246eeb5f-5691-449d-8a85-900cb747e031")
 	)
-	(hierarchical_label "SLOT4_PCIEx4{PCIE}"
+	(hierarchical_label "SLOT4x4{PCIE}"
 		(shape input)
 		(at 91.44 274.32 180)
 		(effects
