@@ -5,12 +5,12 @@
 	(uuid "cd5baece-92f9-4822-9a77-52b8fba36213")
 	(paper "A2")
 	(lib_symbols
-		(symbol "Connector:Bus_M.2_Socket_E"
+		(symbol "Bus_M.2_Socket_E_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
+			(property "Reference" "J7"
+				(at 2.1433 50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,11 +19,12 @@
 				)
 			)
 			(property "Value" "Bus_M.2_Socket_E"
-				(at 16.51 46.99 0)
+				(at 2.1433 48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -71,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Bus_M.2_Socket_E_0_1"
+			(symbol "Bus_M.2_Socket_E_1_0_1"
 				(rectangle
 					(start -22.86 45.72)
 					(end 22.86 -45.72)
@@ -84,7 +85,7 @@
 					)
 				)
 			)
-			(symbol "Bus_M.2_Socket_E_1_1"
+			(symbol "Bus_M.2_Socket_E_1_1_1"
 				(pin output line
 					(at -25.4 43.18 0)
 					(length 2.54)
@@ -139,7 +140,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -25.4 33.02 0)
 					(length 2.54)
 					(name "PETp0"
@@ -157,7 +158,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -25.4 30.48 0)
 					(length 2.54)
 					(name "PETn0"
@@ -175,7 +176,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -25.4 27.94 0)
 					(length 2.54)
 					(name "PERp0"
@@ -193,7 +194,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -25.4 25.4 0)
 					(length 2.54)
 					(name "PERn0"
@@ -517,7 +518,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -25.4 -35.56 0)
 					(length 2.54)
 					(name "REFCLKp0"
@@ -535,7 +536,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -25.4 -38.1 0)
 					(length 2.54)
 					(name "REFCLKn0"
@@ -9202,271 +9203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Bus_M.2_Socket_E")
-		(at 436.88 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36692220-22af-48ab-ae6d-a3bf892f8fd4")
-		(property "Reference" "J8"
-			(at 439.0233 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Bus_M.2_Socket_E"
-			(at 439.0233 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 436.88 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
-			(at 436.88 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
-			(at 436.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "56"
-			(uuid "8fb1fd7d-1ab7-4bbd-8bd3-6cfc7d506ef0")
-		)
-		(pin "21"
-			(uuid "c74f2aa3-a890-40f8-a702-9df0108e3020")
-		)
-		(pin "10"
-			(uuid "4c32c8e1-d519-45fb-b2a6-836bec16074b")
-		)
-		(pin "40"
-			(uuid "f56f6567-b8df-4b5b-b13b-54d37bc2f36a")
-		)
-		(pin "66"
-			(uuid "bc7a7e59-aa56-4e3d-9fff-016f1ec9f11a")
-		)
-		(pin "67"
-			(uuid "5ead7031-716c-4dcd-84fa-bf7ea03be601")
-		)
-		(pin "42"
-			(uuid "906922d0-fff9-4f04-9ad1-0df358a794cf")
-		)
-		(pin "74"
-			(uuid "b40e1982-2fce-468c-a249-74c48286ac6f")
-		)
-		(pin "54"
-			(uuid "ad09c8ab-62f9-4875-bb1d-fa6c60a3fd86")
-		)
-		(pin "1"
-			(uuid "cef22ccd-eaeb-4faf-bdb5-51c14df30198")
-		)
-		(pin "11"
-			(uuid "9b9f2a4f-0430-4690-ae85-553e202906a9")
-		)
-		(pin "15"
-			(uuid "4c4fb2d1-25ab-4e9e-a17a-db677aa2a63c")
-		)
-		(pin "61"
-			(uuid "0acb8640-d788-469a-9989-f4141c4b9249")
-		)
-		(pin "71"
-			(uuid "e819a3ea-00cc-4f19-acb2-eb41b8a2dc48")
-		)
-		(pin "73"
-			(uuid "f0464150-6d4e-4703-990e-6e6a31a10a43")
-		)
-		(pin "45"
-			(uuid "42287616-154c-4b68-8989-c236bfa324f6")
-		)
-		(pin "23"
-			(uuid "71877db8-5124-490f-9149-d28a07ae1fa2")
-		)
-		(pin "14"
-			(uuid "73bd4f0f-04c7-445a-b3c4-1271e514f3be")
-		)
-		(pin "20"
-			(uuid "9b2768b8-03f1-4337-bdcd-17687996dce9")
-		)
-		(pin "33"
-			(uuid "51c0dd36-a1a0-470d-af15-942bac73693d")
-		)
-		(pin "12"
-			(uuid "1f4a449d-7497-48e2-97be-aa72732262b8")
-		)
-		(pin "32"
-			(uuid "9c74af3a-4c6a-431a-8339-c58ae2d8a6e1")
-		)
-		(pin "13"
-			(uuid "7f047e40-d4a2-441b-9f93-024ccb5a9a48")
-		)
-		(pin "39"
-			(uuid "bae3e816-c323-446c-9f9c-79ef46b5a98c")
-		)
-		(pin "55"
-			(uuid "6ceaf07b-bbc9-412f-a4a4-5df24fb5ca10")
-		)
-		(pin "43"
-			(uuid "dee62d4f-9784-4667-a3a2-edee8887062e")
-		)
-		(pin "48"
-			(uuid "8dad6f55-8879-45e4-a1ef-e90a72297042")
-		)
-		(pin "44"
-			(uuid "5b45e45c-f44e-46ce-a8ec-4eafa3f2ba6e")
-		)
-		(pin "53"
-			(uuid "a8fc7bb4-af63-4d1c-b86b-4d3b28110dfb")
-		)
-		(pin "52"
-			(uuid "3a90aaa8-485e-48e9-a48a-43b39a8a751c")
-		)
-		(pin "72"
-			(uuid "9d887c8a-9aad-450e-92f8-edc75c9f9569")
-		)
-		(pin "50"
-			(uuid "21153c5a-de50-4dfc-91ee-3ed4cdbf2dfb")
-		)
-		(pin "16"
-			(uuid "f55dfb66-30f3-403b-9c52-c3216cd64a54")
-		)
-		(pin "5"
-			(uuid "10c2e819-7ac4-4d69-a616-76c81d72ed8d")
-		)
-		(pin "36"
-			(uuid "8f9e190f-b33f-4f83-a124-b8f4070ffb2d")
-		)
-		(pin "18"
-			(uuid "c95bd30c-73bc-4b0e-8d71-abe40e4a49be")
-		)
-		(pin "38"
-			(uuid "2b6f0ba3-78c1-4277-a92c-eb4599cc1ca1")
-		)
-		(pin "17"
-			(uuid "91e76cda-fdc5-4bf0-ac00-5b0abd814df8")
-		)
-		(pin "6"
-			(uuid "78ccb78c-f788-4ad0-a01f-328a155fe93f")
-		)
-		(pin "35"
-			(uuid "52c5f9a4-e086-4b34-a3c6-764c46dd8b65")
-		)
-		(pin "9"
-			(uuid "aef54280-4ef0-47aa-a81b-448080a81acc")
-		)
-		(pin "75"
-			(uuid "77868024-9121-49a6-8c89-a6eedf694af3")
-		)
-		(pin "70"
-			(uuid "8bc2fd1f-bded-47f0-bc99-88fb21f48d05")
-		)
-		(pin "2"
-			(uuid "0df5622c-2bf2-45ac-975c-4b0c8f85e507")
-		)
-		(pin "19"
-			(uuid "059369a1-a534-46bd-82c7-dea57672b6a0")
-		)
-		(pin "62"
-			(uuid "9735f189-0a14-4f25-aa6e-e1af6c0d4e56")
-		)
-		(pin "37"
-			(uuid "69464fe7-4ae0-40e7-8b0e-e2cece136b38")
-		)
-		(pin "49"
-			(uuid "fed72731-1466-4ac1-b559-f8696d1d4a4b")
-		)
-		(pin "60"
-			(uuid "881293b1-2a05-48fb-bde7-6756439ff49e")
-		)
-		(pin "41"
-			(uuid "f040bf8d-52cd-424d-9813-fef1fb71cf5d")
-		)
-		(pin "47"
-			(uuid "7167595d-be58-448d-a380-7cb6df6f58da")
-		)
-		(pin "22"
-			(uuid "7bc225cf-1b74-4940-9ed5-63ced540e219")
-		)
-		(pin "68"
-			(uuid "ccff431d-fb3a-4ade-a384-19a1e7ea1b5e")
-		)
-		(pin "4"
-			(uuid "3ea2e7d8-26f5-4a5e-9a04-81410a303bc6")
-		)
-		(pin "65"
-			(uuid "03342a5d-350b-4781-a5d4-83390089ae72")
-		)
-		(pin "63"
-			(uuid "d330c71c-c6cc-49d8-a49c-51a888b8ae25")
-		)
-		(pin "69"
-			(uuid "a53c6d11-1f1f-4154-9090-6050d673de4d")
-		)
-		(pin "57"
-			(uuid "09c0c570-7098-42a8-a9ce-f2c875a96075")
-		)
-		(pin "51"
-			(uuid "4da7718a-f4af-43e9-a793-328c90fbedb8")
-		)
-		(pin "46"
-			(uuid "d2c912a5-4577-4de8-a5ad-a63402ee9b62")
-		)
-		(pin "3"
-			(uuid "3298c19c-50c8-48cf-88f9-52e254a4e938")
-		)
-		(pin "7"
-			(uuid "a0850ac8-afc0-4f03-b0d3-e4ebf320d04f")
-		)
-		(pin "34"
-			(uuid "9fa2a014-212f-49b5-90fc-04838c80ab1b")
-		)
-		(pin "59"
-			(uuid "27635df2-ba14-47c0-b28b-49bc33ee9ca9")
-		)
-		(pin "64"
-			(uuid "09c0fa09-37d5-4bba-b9db-d0341096462a")
-		)
-		(pin "58"
-			(uuid "059ae2df-1e7b-4321-9674-0dfd6e524bbf")
-		)
-		(pin "8"
-			(uuid "f4bc9673-3257-4252-be12-4f117cf81ca4")
-		)
-		(instances
-			(project ""
-				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 147.32 74.93 90)
 		(unit 1)
@@ -11202,6 +10938,272 @@
 		)
 	)
 	(symbol
+		(lib_name "Bus_M.2_Socket_E_1")
+		(lib_id "Connector:Bus_M.2_Socket_E")
+		(at 436.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "986fe5e5-3526-45be-b714-e89b3de5e7b4")
+		(property "Reference" "J8"
+			(at 439.0233 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus_M.2_Socket_E"
+			(at 439.0233 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
+			(at 436.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "33"
+			(uuid "e2ecbc63-c997-4b09-b349-83849bc20b7b")
+		)
+		(pin "54"
+			(uuid "749e2894-9b3b-494c-8549-a5035b9c6ef4")
+		)
+		(pin "75"
+			(uuid "a7dac16b-e945-4ff9-8ec2-f7d333cf1ff4")
+		)
+		(pin "59"
+			(uuid "b2d6b394-3936-483c-9964-fa97c9486312")
+		)
+		(pin "20"
+			(uuid "e7cb3856-3cf6-40fa-90ca-4ea0094f4ca2")
+		)
+		(pin "8"
+			(uuid "cd35f58a-24b9-4fbf-bb4b-4d9ceb341571")
+		)
+		(pin "32"
+			(uuid "596ebb64-8008-42b2-93f7-35b14fca751f")
+		)
+		(pin "36"
+			(uuid "6ba25106-0d8c-42e4-b4d6-897f8c122cd8")
+		)
+		(pin "67"
+			(uuid "02d3e005-1529-47d9-89e5-5698acb621e8")
+		)
+		(pin "44"
+			(uuid "4c9fc715-6e89-4531-b162-fb6d1abfb700")
+		)
+		(pin "12"
+			(uuid "2b02b3f8-4bf6-4831-a270-9185e672a581")
+		)
+		(pin "6"
+			(uuid "bf5387d6-6cfa-4daf-abba-15e2c4a837dd")
+		)
+		(pin "46"
+			(uuid "0e650822-073d-4345-bf9e-f85ceda22fd5")
+		)
+		(pin "10"
+			(uuid "f679aa78-41b7-4870-a447-6b76898f76c2")
+		)
+		(pin "34"
+			(uuid "7b3e15aa-fced-4a01-bcac-d861df5a22fe")
+		)
+		(pin "7"
+			(uuid "c1ca8188-5615-489a-985d-7237cb20742d")
+		)
+		(pin "64"
+			(uuid "b62649e6-ceb1-4211-a935-49899ee558f5")
+		)
+		(pin "18"
+			(uuid "fd938a2f-8e42-448b-98c1-905f9adec808")
+		)
+		(pin "35"
+			(uuid "2fc3d6d8-aa7e-4bd9-a575-d7a3c0a0da18")
+		)
+		(pin "16"
+			(uuid "64a7fb24-455e-4797-ab01-3b4ae69c7bd6")
+		)
+		(pin "63"
+			(uuid "45ef0766-a87d-4f3d-81b1-098f6d1ea0a6")
+		)
+		(pin "11"
+			(uuid "875bd07e-10f8-4f84-997a-116a0678b0bb")
+		)
+		(pin "50"
+			(uuid "b2f7a602-19f1-40d0-8442-d357f65af7b8")
+		)
+		(pin "37"
+			(uuid "4ed6d9df-595f-472b-9854-a97edb77f823")
+		)
+		(pin "41"
+			(uuid "19fc85d7-5a80-4c0f-b840-ea52ab42c5aa")
+		)
+		(pin "43"
+			(uuid "0a2123c8-ec9a-4043-b8f1-94c3fc94fb2c")
+		)
+		(pin "42"
+			(uuid "b9b2ce25-9b45-484c-abfc-54ee801de2f0")
+		)
+		(pin "39"
+			(uuid "b1ff7204-2763-492f-92c7-82265583d5de")
+		)
+		(pin "2"
+			(uuid "0067add4-2edd-428d-8456-0114e9f24611")
+		)
+		(pin "73"
+			(uuid "20f5e5b8-cde4-4580-b87b-d39be6f82403")
+		)
+		(pin "70"
+			(uuid "8f96b314-15c4-47b5-b726-9636a6036528")
+		)
+		(pin "5"
+			(uuid "a552754d-404e-43fd-ae2b-7faed3559214")
+		)
+		(pin "72"
+			(uuid "e8b86afc-9eff-455a-b2b9-412af893122f")
+		)
+		(pin "4"
+			(uuid "7a2bd00d-123e-4800-98b4-8adb704733a7")
+		)
+		(pin "65"
+			(uuid "edc617ba-ae75-46ff-a7a0-eb82618fc852")
+		)
+		(pin "40"
+			(uuid "2055fa1b-4cbb-416e-9159-8d4543c23d48")
+		)
+		(pin "48"
+			(uuid "2c4ae957-dd78-4312-9afa-1f85b237c8f0")
+		)
+		(pin "69"
+			(uuid "a8488231-f9cd-4fff-a125-133d8f2967dc")
+		)
+		(pin "14"
+			(uuid "aa276b45-f1bb-4033-bd03-ff4211739a8e")
+		)
+		(pin "58"
+			(uuid "c9ee2a30-3653-4577-b9a0-5b03ee0e2f8e")
+		)
+		(pin "62"
+			(uuid "b45f2bc7-555e-42e8-bca8-dd5e73cc7e1d")
+		)
+		(pin "55"
+			(uuid "5b789539-e4c6-430e-b08e-542a6696acd9")
+		)
+		(pin "52"
+			(uuid "1ee86082-efa2-4ce0-bf04-73745d102e5a")
+		)
+		(pin "22"
+			(uuid "bd78a5fa-96d1-4e18-bd50-afb4ad94d006")
+		)
+		(pin "53"
+			(uuid "fc246330-7fd8-4913-8c4d-9ad8cc256c49")
+		)
+		(pin "60"
+			(uuid "932e3c27-2247-4d3a-b391-9f5225cd5541")
+		)
+		(pin "38"
+			(uuid "bc58d388-2831-463a-9970-ce97546c2da5")
+		)
+		(pin "1"
+			(uuid "3e4f1cd5-455b-4dde-a529-dd2998d22a7e")
+		)
+		(pin "71"
+			(uuid "cd94f845-4590-4df0-9584-31cea74c4b21")
+		)
+		(pin "3"
+			(uuid "78eb7932-1e54-4291-b2f7-dee29220e98e")
+		)
+		(pin "9"
+			(uuid "83e13670-9643-4b82-9ff2-2e7f15a56f84")
+		)
+		(pin "23"
+			(uuid "68d08328-f10f-4332-89b7-100be420c28e")
+		)
+		(pin "51"
+			(uuid "a1c239ed-18b8-4f40-8aba-6e497fb90cd0")
+		)
+		(pin "45"
+			(uuid "c17b4c4a-29f1-4a31-9326-0fcb625de906")
+		)
+		(pin "57"
+			(uuid "4dccd745-7837-4f8b-bb82-2334438fb3df")
+		)
+		(pin "74"
+			(uuid "33560553-9b65-4fc1-827b-c74b0724b35a")
+		)
+		(pin "47"
+			(uuid "86d84029-14c5-4fa0-b415-8968a6bc223b")
+		)
+		(pin "49"
+			(uuid "ffb6d0d1-c6d2-43c6-a2bd-b04e2bbf344e")
+		)
+		(pin "17"
+			(uuid "0e60b1b5-b166-4a9d-a51e-d9001512412a")
+		)
+		(pin "68"
+			(uuid "fa31fed4-5ab4-46a7-9365-4454a2c50af8")
+		)
+		(pin "66"
+			(uuid "9f61636c-e0f7-437c-86c1-2507cd06e33d")
+		)
+		(pin "15"
+			(uuid "8852d635-0605-4389-8f3b-a9eb44fa0225")
+		)
+		(pin "19"
+			(uuid "c25773bb-c1e4-4da0-bd8a-947d7dcf9e78")
+		)
+		(pin "61"
+			(uuid "116ac02d-7fb7-4259-b806-e39aa3ffb499")
+		)
+		(pin "21"
+			(uuid "10dc1860-4e23-471e-82bd-9e08da7a95d0")
+		)
+		(pin "56"
+			(uuid "e648d77e-f642-4159-a828-019cbc0a2f51")
+		)
+		(pin "13"
+			(uuid "2ab0c32b-3439-407a-bd09-9e6473831c1c")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 410.21 93.98 270)
 		(unit 1)
@@ -11819,6 +11821,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Bus_M.2_Socket_E_1")
 		(lib_id "Connector:Bus_M.2_Socket_E")
 		(at 140.97 128.27 0)
 		(unit 1)
