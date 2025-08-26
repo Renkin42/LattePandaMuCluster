@@ -13400,7 +13400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "ZD25Q64BSIGT"
 			(at 358.14 264.1599 0)
 			(effects
 				(font

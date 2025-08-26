@@ -13811,7 +13811,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "ZD25Q64BSIGT"
 			(at 346.71 261.6199 0)
 			(effects
 				(font
