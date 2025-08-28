@@ -15465,7 +15465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_LattePanda:LattePanda_Module_H8.0mm_Horizontal"
+		(property "Footprint" "124B-150A02:ATTEND_124B-150A02"
 			(at 276.86 193.04 0)
 			(effects
 				(font
