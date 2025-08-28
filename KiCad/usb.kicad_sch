@@ -9469,7 +9469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RJE361882145:AMPHENOL_RJE361882415"
 			(at 208.28 17.78 0)
 			(effects
 				(font
@@ -10542,7 +10542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RJE361882145:AMPHENOL_RJE361882415"
 			(at 88.9 20.32 0)
 			(effects
 				(font

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LattePanda-Mu")(type "KiCad")(uri "${KIPRJMOD}/libs/lattepanda-mu/Module_LattePanda.pretty")(options "")(descr ""))
   (lib (name "EasyEDA2KiCAD")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda2kicad/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "RJE361882145")(type "KiCad")(uri "${KIPRJMOD}/libs/RJE361882415")(options "")(descr ""))
 )

@@ -3517,16 +3517,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 104.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67692048-e9fe-4472-b187-6ee4d88dcbcc")
-	)
-	(wire
-		(pts
 			(xy 135.89 91.44) (xy 144.78 91.44)
 		)
 		(stroke
@@ -3797,7 +3787,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 109.22) (xy 95.25 109.22)
+			(xy 92.71 109.22) (xy 104.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6872,73 +6862,6 @@
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/6eac886f-f669-4a66-b218-dbac55577930"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 97.79 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fce25ed0-ea13-42f2-9eb7-9bdb2bd46c91")
-		(property "Reference" "R113"
-			(at 101.854 108.204 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 94.234 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bf7c670e-c49e-4858-b61a-a36e70930e28")
-		)
-		(pin "1"
-			(uuid "beb42f32-5554-4172-ba69-ac0279c3f223")
-		)
-		(instances
-			(project "LattePandaMuCluster"
-				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/6eac886f-f669-4a66-b218-dbac55577930"
-					(reference "R113")
 					(unit 1)
 				)
 			)

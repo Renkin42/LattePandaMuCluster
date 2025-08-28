@@ -5205,6 +5205,18 @@
 		(uuid "71226159-db51-453e-84e0-dbbdb3c359ac")
 	)
 	(junction
+		(at 227.33 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e962f3-2df7-47bd-af82-933e0b3850f0")
+	)
+	(junction
+		(at 228.6 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78cd6f2b-21df-4424-8fd4-ac8334435e21")
+	)
+	(junction
 		(at 252.73 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5215,6 +5227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83721417-b107-4b15-b403-758d85d47238")
+	)
+	(junction
+		(at 198.12 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ebea89-455d-44c7-9fd2-7c509d7750e0")
 	)
 	(junction
 		(at 248.92 85.09)
@@ -5353,6 +5371,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b462c5-3da7-4657-afc7-f2e8568061e6")
+	)
+	(junction
+		(at 196.85 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4cc5d8b-79b0-4fa1-af54-cc34637d3c8a")
 	)
 	(junction
 		(at 269.24 135.89)
@@ -5628,6 +5652,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 85.09) (xy 248.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab2a78e-fb99-4944-bdca-d46c51c30aef")
+	)
+	(wire
+		(pts
 			(xy 82.55 26.67) (xy 82.55 33.02)
 		)
 		(stroke
@@ -5685,6 +5719,16 @@
 			(type default)
 		)
 		(uuid "11b2b61c-ba28-4c17-aae7-9427a4c239ba")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131991b6-85b5-4e08-b061-3d964bd364e1")
 	)
 	(wire
 		(pts
@@ -5768,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 248.92 80.01)
+			(xy 190.5 80.01) (xy 227.33 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5805,6 +5849,16 @@
 			(type default)
 		)
 		(uuid "1c00e510-ed1f-49ed-a4b5-bdeda705792c")
+	)
+	(wire
+		(pts
+			(xy 227.33 80.01) (xy 248.92 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c96160a-75ae-4e59-ace6-94e133af15c7")
 	)
 	(wire
 		(pts
@@ -5928,6 +5982,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 44.45) (xy 228.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3019bf85-43fb-4f78-9c14-f9c200410716")
+	)
+	(wire
+		(pts
 			(xy 115.57 31.75) (xy 113.03 31.75)
 		)
 		(stroke
@@ -6028,6 +6092,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 49.53) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5e6a42-8bb5-422d-a287-30525d0ea46a")
+	)
+	(wire
+		(pts
 			(xy 92.71 83.82) (xy 92.71 85.09)
 		)
 		(stroke
@@ -6105,6 +6179,16 @@
 			(type default)
 		)
 		(uuid "42bd1541-f795-405e-a204-aab5fde90cb7")
+	)
+	(wire
+		(pts
+			(xy 212.09 59.69) (xy 212.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430ae41b-16f1-4ca4-a138-d39176961632")
 	)
 	(wire
 		(pts
@@ -6268,6 +6352,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 49.53) (xy 227.33 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f4f20f-023f-44be-ba5b-05fec0321aa0")
+	)
+	(wire
+		(pts
 			(xy 39.37 134.62) (xy 44.45 134.62)
 		)
 		(stroke
@@ -6285,6 +6379,16 @@
 			(type default)
 		)
 		(uuid "57a98e19-23f3-4f96-95c6-66d86c94fe29")
+	)
+	(wire
+		(pts
+			(xy 228.6 44.45) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b2351e-2e72-4fcc-a984-0d83bd926c5c")
 	)
 	(wire
 		(pts
@@ -6445,6 +6549,16 @@
 			(type default)
 		)
 		(uuid "673090d7-1871-4460-9225-1e36ad03db5b")
+	)
+	(wire
+		(pts
+			(xy 198.12 49.53) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681e3399-d1a1-43f2-a3d4-be5f6749528c")
 	)
 	(wire
 		(pts
@@ -7158,6 +7272,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2be4642-50a8-4e1d-89c0-65f688f62b1f")
+	)
+	(wire
+		(pts
 			(xy 251.46 115.57) (xy 254 115.57)
 		)
 		(stroke
@@ -7268,6 +7392,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 49.53) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3eeb962-c7b6-456c-a93f-b8914f35d3c2")
+	)
+	(wire
+		(pts
 			(xy 35.56 120.65) (xy 39.37 120.65)
 		)
 		(stroke
@@ -7298,7 +7432,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 74.93) (xy 161.29 74.93)
+			(xy 254 74.93) (xy 198.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7338,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 254 72.39)
+			(xy 160.02 72.39) (xy 196.85 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7478,6 +7612,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 44.45) (xy 196.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb05efb0-6882-4366-9689-21b5c1b16e7c")
+	)
+	(wire
+		(pts
 			(xy 92.71 85.09) (xy 95.25 85.09)
 		)
 		(stroke
@@ -7495,6 +7639,16 @@
 			(type default)
 		)
 		(uuid "eb4f2708-faf5-4a10-85a5-7dc3b9a72b46")
+	)
+	(wire
+		(pts
+			(xy 196.85 44.45) (xy 196.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb95c6a-ba76-452a-9aa7-cd17e8ccedb3")
 	)
 	(wire
 		(pts
@@ -7608,7 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 85.09) (xy 248.92 85.09)
+			(xy 190.5 85.09) (xy 228.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -9137,6 +9291,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:D3V3XA4B10LP")
+		(at 212.09 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53193906-b341-4a92-bd5c-666b8e02ad65")
+		(property "Reference" "U45"
+			(at 212.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H5VU25U"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f1411306-a44d-40ad-a83e-7de86a93c79d")
+		)
+		(pin "6"
+			(uuid "f133a806-7de2-4502-bc98-9e03fca65dcc")
+		)
+		(pin "4"
+			(uuid "c982b14f-a201-4a87-a0fc-bcc8de04b484")
+		)
+		(pin "2"
+			(uuid "280c6653-cc06-487c-bb36-53c3c11326ab")
+		)
+		(pin "1"
+			(uuid "0b0066f3-aadc-4783-8297-e631301d7df9")
+		)
+		(pin "10"
+			(uuid "71dcd427-3cf9-42bd-b400-89c5a89b1f43")
+		)
+		(pin "9"
+			(uuid "aa659a91-9256-4887-8a83-820ecb4b3d96")
+		)
+		(pin "3"
+			(uuid "58a048d4-5e6e-4b4a-9c31-2717065c0ee2")
+		)
+		(pin "8"
+			(uuid "c4252800-d842-45fd-b093-2575fcca95fc")
+		)
+		(pin "7"
+			(uuid "1748ba52-b544-4656-96be-696d1e8b92f9")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
+					(reference "U45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 35.56 109.22 0)
 		(unit 1)
@@ -9848,6 +10093,72 @@
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
 					(reference "#PWR0339")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "783022ff-e986-4df7-b012-51a99fe895c0")
+		(property "Reference" "#PWR0341"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688058fd-8fd1-471c-861a-284d5e1d546b")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
