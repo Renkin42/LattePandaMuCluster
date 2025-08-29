@@ -1,4 +1,11 @@
-5255848097946
+10522898594651
+124B-150A02
+ATTEND_124B-150A02
+
+
+0
+260
+260
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57140,6 +57147,13 @@ ceramic
 0
 3
 3
+Custom
+JACK-USBE-20PINTL
+
+
+0
+26
+21
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -91475,6 +91489,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RJE361882145
+AMPHENOL_RJE361882415
+
+
+0
+38
+38
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
