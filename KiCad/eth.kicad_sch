@@ -34633,7 +34633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:RJ45-TH_HC-RJ45-059C"
 			(at 233.68 193.675 90)
 			(effects
 				(font
@@ -37666,7 +37666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:RJ45-TH_HC-RJ45-059C"
 			(at 510.54 78.105 90)
 			(effects
 				(font
@@ -45156,7 +45156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:RJ45-TH_HC-RJ45-059C"
 			(at 508 196.215 90)
 			(effects
 				(font
@@ -52575,7 +52575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:RJ45-TH_HC-RJ45-059C"
 			(at 229.87 330.835 90)
 			(effects
 				(font

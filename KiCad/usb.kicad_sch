@@ -10303,7 +10303,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:USB-A-TH_HC-USB3.0-L175-2X1-J"
 			(at 204.47 78.74 0)
 			(effects
 				(font
@@ -11817,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:USB-A-TH_HC-USB3.0-L175-2X1-J"
 			(at 86.36 81.28 0)
 			(effects
 				(font

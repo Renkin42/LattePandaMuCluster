@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SFF-8087"
 			(at 92.075 62.23 0)
 			(effects
 				(font
@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:CONN-SMD_LD2136V-MCUL6"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SFF-8087"
 			(at 211.455 64.77 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:CONN-SMD_LD2136V-MCUL6"
 			(at 212.09 64.77 0)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SATA"
 			(at 186.69 120.015 0)
 			(effects
 				(font
@@ -3613,7 +3613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:CONN-TH_XUTS-0722-2070"
 			(at 177.8 113.03 0)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SATA"
 			(at 130.81 118.745 0)
 			(effects
 				(font
@@ -3791,7 +3791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA2KiCAD:CONN-TH_XUTS-0722-2070"
 			(at 121.92 111.76 0)
 			(effects
 				(font
@@ -3819,52 +3819,52 @@
 			)
 		)
 		(pin "S6"
-			(uuid "fab55d78-3ce4-4f80-818c-74c008a6618b")
+			(uuid "fab55d78-3ce4-4f80-818c-74c008a6618c")
 		)
 		(pin "S4"
-			(uuid "64c3b9eb-971c-427c-b583-a526246e1e25")
+			(uuid "64c3b9eb-971c-427c-b583-a526246e1e26")
 		)
 		(pin "S3"
-			(uuid "7df14dac-035b-4998-9441-52a414b51e93")
+			(uuid "7df14dac-035b-4998-9441-52a414b51e94")
 		)
 		(pin "S5"
-			(uuid "3c25ff3c-bb00-4c20-b356-988cb87015bb")
+			(uuid "3c25ff3c-bb00-4c20-b356-988cb87015bc")
 		)
 		(pin "2"
-			(uuid "14cf0bbe-bc0f-4f03-ab16-4a045b9808e7")
+			(uuid "14cf0bbe-bc0f-4f03-ab16-4a045b9808e8")
 		)
 		(pin "3"
-			(uuid "75d35402-4269-48aa-b9a6-1092cb0a4b7c")
+			(uuid "75d35402-4269-48aa-b9a6-1092cb0a4b7d")
 		)
 		(pin "5"
-			(uuid "ce684787-b31c-4f6b-b116-cea7b6b4138c")
+			(uuid "ce684787-b31c-4f6b-b116-cea7b6b4138d")
 		)
 		(pin "7"
-			(uuid "b08cc9c7-88fc-45d5-b14c-64354a9ab942")
+			(uuid "b08cc9c7-88fc-45d5-b14c-64354a9ab943")
 		)
 		(pin "S2"
-			(uuid "b797c99e-01c3-443a-a94c-a4dd2ccdc100")
+			(uuid "b797c99e-01c3-443a-a94c-a4dd2ccdc101")
 		)
 		(pin "6"
-			(uuid "e637667e-5f1c-4a7d-ac40-a5e8aa8f2a56")
+			(uuid "e637667e-5f1c-4a7d-ac40-a5e8aa8f2a57")
 		)
 		(pin "1"
-			(uuid "bce9a3ee-6785-4e90-be73-2d08803611a9")
+			(uuid "bce9a3ee-6785-4e90-be73-2d08803611aa")
 		)
 		(pin "15"
-			(uuid "d595f9cb-248e-40e6-8c83-b5fce0a545f5")
+			(uuid "d595f9cb-248e-40e6-8c83-b5fce0a545f6")
 		)
 		(pin "4"
-			(uuid "7bd9a4bf-2280-46d9-9b28-c450409e6917")
+			(uuid "7bd9a4bf-2280-46d9-9b28-c450409e6918")
 		)
 		(pin "S1"
-			(uuid "0289a2d0-40cd-4ebc-b6db-789273a72b59")
+			(uuid "0289a2d0-40cd-4ebc-b6db-789273a72b5a")
 		)
 		(pin "16"
-			(uuid "aaa96335-8fc5-443b-b584-a0ef1e2c92d8")
+			(uuid "aaa96335-8fc5-443b-b584-a0ef1e2c92d9")
 		)
 		(pin "S7"
-			(uuid "4f4c845e-74ce-494b-acb7-dbd85fda9a32")
+			(uuid "4f4c845e-74ce-494b-acb7-dbd85fda9a33")
 		)
 		(instances
 			(project ""
