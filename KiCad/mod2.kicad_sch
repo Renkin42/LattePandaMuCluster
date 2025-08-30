@@ -11478,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 181.61 0)
 			(effects
 				(font
@@ -11545,7 +11545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 163.83 0)
 			(effects
 				(font
@@ -11612,7 +11612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 196.85 0)
 			(effects
 				(font
@@ -11746,7 +11746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 176.53 0)
 			(effects
 				(font
@@ -12793,7 +12793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 353.06 259.08 0)
 			(effects
 				(font
@@ -12996,7 +12996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 120.65 0)
 			(effects
 				(font
@@ -13210,7 +13210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 194.31 0)
 			(effects
 				(font
@@ -13277,7 +13277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 128.27 0)
 			(effects
 				(font
@@ -13411,7 +13411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 189.23 0)
 			(effects
 				(font
@@ -13543,7 +13543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 179.07 0)
 			(effects
 				(font
@@ -13610,7 +13610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 173.99 0)
 			(effects
 				(font
@@ -13744,7 +13744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 384.81 57.15 0)
 			(effects
 				(font
@@ -14079,7 +14079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 107.95 0)
 			(effects
 				(font
@@ -14487,7 +14487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 171.45 0)
 			(effects
 				(font
@@ -14554,7 +14554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 130.81 0)
 			(effects
 				(font
@@ -15038,7 +15038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 161.29 0)
 			(effects
 				(font
@@ -15375,7 +15375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 184.15 0)
 			(effects
 				(font
@@ -15642,7 +15642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 334.01 57.15 0)
 			(effects
 				(font
@@ -15845,7 +15845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 151.13 0)
 			(effects
 				(font
@@ -16182,7 +16182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 153.67 0)
 			(effects
 				(font
@@ -16451,7 +16451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 186.69 0)
 			(effects
 				(font
@@ -16518,7 +16518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 118.11 0)
 			(effects
 				(font
@@ -16662,7 +16662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 110.49 0)
 			(effects
 				(font
