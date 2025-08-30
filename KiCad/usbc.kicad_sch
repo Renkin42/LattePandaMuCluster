@@ -7656,7 +7656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 24.13 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -8300,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RSH0056E-MFG"
+		(property "Footprint" "TPS65987D:RSH0056E-MFG"
 			(at 53.34 111.76 0)
 			(effects
 				(font
@@ -8607,7 +8607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.71 27.94 0)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RSH0056E-MFG"
+		(property "Footprint" "TPS65987D:RSH0056E-MFG"
 			(at 115.57 33.02 0)
 			(effects
 				(font
@@ -9944,7 +9944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 82.55 24.13 0)
 			(effects
 				(font
@@ -10411,7 +10411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 29.21 0)
 			(effects
 				(font
@@ -10481,7 +10481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 149.86 0)
 			(effects
 				(font
