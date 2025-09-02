@@ -1,4 +1,4 @@
-10522898594651
+22817786893753
 124B-150A02
 ATTEND_124B-150A02
 
@@ -59171,12 +59171,54 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA2KiCAD
+BAT-TH_BH-123A-A5BJ002
+
+
+0
+3
+2
+EasyEDA2KiCAD
 CONN-SMD_HBH2-74AT-1-UHR
 
 
 0
 80
 76
+EasyEDA2KiCAD
+CONN-SMD_LD2136V-MCUL6
+
+
+0
+44
+37
+EasyEDA2KiCAD
+CONN-TH_XUTS-0722-2070
+
+
+0
+16
+16
+EasyEDA2KiCAD
+RJ45-TH_HC-RJ45-059C
+
+
+0
+31
+30
+EasyEDA2KiCAD
+USB-A-TH_HC-USB3.0-L175-2X1-J
+
+
+0
+22
+22
+EasyEDA2KiCAD
+USB-A-TH_XUNPU_USB-303WSD-BRY
+
+
+0
+22
+22
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -95878,6 +95920,13 @@ Logo WEEE
 0
 0
 0
+TPS65987D
+RSH0056E-MFG
+
+TPS65987DDKRSHR 
+0
+83
+83
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

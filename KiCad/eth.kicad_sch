@@ -37333,7 +37333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 387.35 53.34 0)
 			(effects
 				(font
@@ -44256,7 +44256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 110.49 168.91 0)
 			(effects
 				(font
@@ -48865,7 +48865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 113.03 50.8 0)
 			(effects
 				(font
@@ -49403,7 +49403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 384.81 171.45 0)
 			(effects
 				(font
@@ -52717,7 +52717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 106.68 306.07 0)
 			(effects
 				(font
