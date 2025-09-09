@@ -5,7 +5,7 @@
 	(uuid "cd5baece-92f9-4822-9a77-52b8fba36213")
 	(paper "A2")
 	(lib_symbols
-		(symbol "Bus_M.2_Socket_E_1"
+		(symbol "Bus_M.2_Socket_E_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "EasyEDA2KiCAD:CONN-SMD_AS0BC21-S48BE-7H"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Bus_M.2_Socket_E_1_0_1"
+			(symbol "Bus_M.2_Socket_E_2_0_1"
 				(rectangle
 					(start -22.86 45.72)
 					(end 22.86 -45.72)
@@ -85,7 +85,7 @@
 					)
 				)
 			)
-			(symbol "Bus_M.2_Socket_E_1_1_1"
+			(symbol "Bus_M.2_Socket_E_2_1_1"
 				(pin output line
 					(at -25.4 43.18 0)
 					(length 2.54)
@@ -866,6 +866,24 @@
 						)
 					)
 					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -48.26 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3133,23 +3151,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3174,7 +3196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3192,7 +3214,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3201,9 +3223,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -3211,6 +3233,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3653,6 +3695,12 @@
 		(uuid "2e9699bc-5604-45db-99b4-3520721ed6c1")
 	)
 	(junction
+		(at 436.88 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "385931f2-249a-4bdb-b780-d6f6a8088f52")
+	)
+	(junction
 		(at 450.85 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3825,6 +3873,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8f72e94-5403-48a8-9c75-8750d5e3bf38")
+	)
+	(junction
+		(at 140.97 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0a4a67-8f57-490e-a8be-68e078aa4d00")
 	)
 	(junction
 		(at 124.46 265.43)
@@ -5516,6 +5570,16 @@
 	)
 	(wire
 		(pts
+			(xy 414.02 80.01) (xy 414.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3fc40d-6ba3-4b76-b0a4-23fce87361ea")
+	)
+	(wire
+		(pts
 			(xy 469.9 119.38) (xy 473.71 119.38)
 		)
 		(stroke
@@ -5603,6 +5667,16 @@
 			(type default)
 		)
 		(uuid "4842e5e9-2d9c-4e54-8484-aa78fe5f6afb")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488d9bba-7bce-49c3-ba20-7ad1f70217ac")
 	)
 	(wire
 		(pts
@@ -5914,6 +5988,16 @@
 		)
 		(uuid "5feafac3-52a6-4ded-8554-9c3f34e6662f")
 	)
+	(wire
+		(pts
+			(xy 436.88 185.42) (xy 439.42 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606b5d38-ae5c-4448-b921-ba7a68e6b61b")
+	)
 	(bus
 		(pts
 			(xy 398.78 312.42) (xy 398.78 314.96)
@@ -6166,6 +6250,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 185.42) (xy 436.88 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1f75cb-d50c-4337-8c2b-6759e67c2972")
+	)
+	(wire
+		(pts
 			(xy 92.71 118.11) (xy 115.57 118.11)
 		)
 		(stroke
@@ -6223,6 +6317,16 @@
 			(type default)
 		)
 		(uuid "830825a8-4cb5-403f-872e-7e8ded8a433b")
+	)
+	(wire
+		(pts
+			(xy 140.97 179.07) (xy 140.97 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835376c5-491f-41b7-9cdb-6836cd416bbe")
 	)
 	(wire
 		(pts
@@ -6293,6 +6397,16 @@
 			(type default)
 		)
 		(uuid "895c9cce-fa34-4ca2-b3db-328dcc903bf5")
+	)
+	(wire
+		(pts
+			(xy 140.97 179.07) (xy 143.51 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a20c254-b0ca-4654-bb73-fae58acb37c2")
 	)
 	(wire
 		(pts
@@ -6476,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 176.53) (xy 140.97 181.61)
+			(xy 140.97 176.53) (xy 140.97 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6603,6 +6717,16 @@
 			(type default)
 		)
 		(uuid "a912e2e4-65c5-4b00-996e-d66e5a7ed48e")
+	)
+	(wire
+		(pts
+			(xy 143.51 179.07) (xy 143.51 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a946a549-946c-4acd-a57b-2b9bc86d6299")
 	)
 	(wire
 		(pts
@@ -7196,6 +7320,16 @@
 	)
 	(wire
 		(pts
+			(xy 439.42 185.42) (xy 439.42 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc24e19b-2033-4085-a16f-ee8e5f9b82e1")
+	)
+	(wire
+		(pts
 			(xy 424.18 271.78) (xy 419.1 271.78)
 		)
 		(stroke
@@ -7396,7 +7530,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 182.88) (xy 436.88 187.96)
+			(xy 436.88 182.88) (xy 436.88 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8278,7 +8412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "038bad9c-fc55-49a6-a95d-f15ae0c10a70")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0137"
 			(at 114.3 273.05 0)
 			(effects
 				(font
@@ -8328,7 +8462,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0115")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -8344,7 +8478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aac46f9-bb15-4598-96ab-62802e250196")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0119"
 			(at 160.02 78.74 0)
 			(effects
 				(font
@@ -8394,7 +8528,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0123")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "127f15ed-3425-4d88-9dcc-7fd946f45163")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0132"
 			(at 160.02 247.65 0)
 			(effects
 				(font
@@ -8460,7 +8594,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0124")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1509083f-9614-4eae-9e67-1f3a32598cfd")
-		(property "Reference" "C160"
+		(property "Reference" "C150"
 			(at 447.04 234.188 90)
 			(effects
 				(font
@@ -8563,7 +8697,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C160")
+					(reference "C150")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17471c98-0cb4-4757-aa96-56a8f8f6e70f")
-		(property "Reference" "C149"
+		(property "Reference" "C155"
 			(at 156.21 249.174 90)
 			(effects
 				(font
@@ -8666,7 +8800,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C149")
+					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -8785,7 +8919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1becac90-3364-4ab7-8e52-dc9863003713")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0126"
 			(at 473.71 119.38 0)
 			(effects
 				(font
@@ -8835,7 +8969,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0138")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8851,7 +8985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d8b3a44-621d-4407-831b-7f7e284e8bb3")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0144"
 			(at 135.89 351.79 0)
 			(effects
 				(font
@@ -8901,7 +9035,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0118")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -8916,7 +9050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24b9d35f-8f37-4b71-9ca3-f92a786dc8d8")
-		(property "Reference" "C151"
+		(property "Reference" "C157"
 			(at 420.37 256.032 90)
 			(effects
 				(font
@@ -9004,7 +9138,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C151")
+					(reference "C157")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "271d5637-07b1-4e87-bc12-8d5e83aeb142")
-		(property "Reference" "C155"
+		(property "Reference" "C149"
 			(at 441.96 234.188 90)
 			(effects
 				(font
@@ -9107,7 +9241,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C155")
+					(reference "C149")
 					(unit 1)
 				)
 			)
@@ -9122,7 +9256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335f8dc3-688d-40f4-9707-caa2784017db")
-		(property "Reference" "C145"
+		(property "Reference" "C139"
 			(at 144.018 62.23 90)
 			(effects
 				(font
@@ -9174,7 +9308,276 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C145")
+					(reference "C139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Bus_M.2_Socket_E_2")
+		(lib_id "Connector:Bus_M.2_Socket_E")
+		(at 436.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339359b2-1324-4bd4-8938-0378aac32b87")
+		(property "Reference" "J7"
+			(at 439.0233 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bus_M.2_Socket_E"
+			(at 439.0233 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA2KiCAD:CONN-SMD_AS0BC21-S48BE-7H"
+			(at 436.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
+			(at 436.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "33"
+			(uuid "53b15cf7-75b4-45a2-9c0d-26688d37f4cd")
+		)
+		(pin "54"
+			(uuid "f70311e0-5222-499a-87e8-d6a05ee9dedc")
+		)
+		(pin "75"
+			(uuid "45612095-5239-4228-a8b9-ce0edb02050f")
+		)
+		(pin "59"
+			(uuid "0b667a3b-2de2-4ff2-a588-ae04f938d195")
+		)
+		(pin "20"
+			(uuid "13373cd0-00b9-431d-9fe5-30cda8ebe732")
+		)
+		(pin "8"
+			(uuid "23fe091c-9b0b-4dda-a315-49dcf6579cf2")
+		)
+		(pin "32"
+			(uuid "99fc829f-14e0-4af1-9b1b-c1443feaaad9")
+		)
+		(pin "36"
+			(uuid "d1f07670-7872-4de9-a612-8d973aa9d3aa")
+		)
+		(pin "67"
+			(uuid "7ce5cfec-102e-489a-8263-b95a11b39ced")
+		)
+		(pin "44"
+			(uuid "4ec40d7a-ac32-4a2f-8826-96c01d53898b")
+		)
+		(pin "12"
+			(uuid "f61a663b-c96e-41e9-96e0-0de9b6ae2f05")
+		)
+		(pin "6"
+			(uuid "265699db-c42c-44be-a7c7-0e3588f3ea25")
+		)
+		(pin "46"
+			(uuid "7c99c523-6952-46db-a698-614f8b928066")
+		)
+		(pin "10"
+			(uuid "ec29fc11-acd9-4561-b21e-956107f1cda6")
+		)
+		(pin "34"
+			(uuid "afc72878-67a4-4a9a-b474-1f130b7508a0")
+		)
+		(pin "7"
+			(uuid "c83bf4fb-d486-4f7e-8695-c79d29c24558")
+		)
+		(pin "64"
+			(uuid "af186377-304d-473e-9579-fa56c747632c")
+		)
+		(pin "18"
+			(uuid "9d6d1def-9288-45b5-a221-8831f8d5aa5c")
+		)
+		(pin "35"
+			(uuid "e4d08bfd-3204-49d7-9310-c998653262dc")
+		)
+		(pin "16"
+			(uuid "608e18f5-ea62-4d5e-b7e3-377b0122a729")
+		)
+		(pin "63"
+			(uuid "211581a8-4ff5-4fd3-b363-d5f3e7265932")
+		)
+		(pin "11"
+			(uuid "60e0a546-2859-4f6f-94ed-76663cd308f5")
+		)
+		(pin "50"
+			(uuid "987cbedf-2edf-4142-ae34-4fe24026c12c")
+		)
+		(pin "37"
+			(uuid "49696f71-c770-4767-8c76-bef0327576d9")
+		)
+		(pin "41"
+			(uuid "542e0ae7-a574-48e1-9a5e-2e0b0d376f20")
+		)
+		(pin "43"
+			(uuid "f2ea47f8-1c51-470c-868f-3e2ac5b03b94")
+		)
+		(pin "42"
+			(uuid "f78fd8ae-c053-49b8-b23f-5fd49f0acad9")
+		)
+		(pin "39"
+			(uuid "8957e4bb-8e60-49c5-bf76-d4a8fbf74b1a")
+		)
+		(pin "2"
+			(uuid "07bd4d1a-7cec-4073-ba48-acc213f0f1c8")
+		)
+		(pin "73"
+			(uuid "50a883ae-05b9-42a6-80bc-c7854b74dfca")
+		)
+		(pin "70"
+			(uuid "64509c38-81c2-4ea5-94f3-9699c1935425")
+		)
+		(pin "5"
+			(uuid "93063472-c4d6-4f37-bc88-14f4020ef6d1")
+		)
+		(pin "72"
+			(uuid "baffa6f8-c6de-4005-9b17-e5f27ea01328")
+		)
+		(pin "4"
+			(uuid "4a64b1f9-4ae3-4df4-ab62-162f10a71d0c")
+		)
+		(pin "65"
+			(uuid "7f2475ca-9e53-407a-a6dd-ec6b0c201213")
+		)
+		(pin "40"
+			(uuid "3f58b8cc-8c6d-4901-ab78-0062af0bcab6")
+		)
+		(pin "48"
+			(uuid "13db150b-ec0e-432f-88a8-1ed92f42aa9a")
+		)
+		(pin "69"
+			(uuid "a4ccbcb7-8c49-4e85-b737-bc62aa3885f6")
+		)
+		(pin "14"
+			(uuid "ea39599e-83a4-4e42-b31c-13973fc4e622")
+		)
+		(pin "58"
+			(uuid "01734090-5006-4207-a340-683bc7ad551b")
+		)
+		(pin "62"
+			(uuid "cbdb6a58-5fc9-4937-a2ee-1bab651f86ae")
+		)
+		(pin "55"
+			(uuid "6c378af1-58d4-4a18-ae6f-e9165f104afb")
+		)
+		(pin "52"
+			(uuid "a597cb12-31d3-499f-80c5-b314312c8b10")
+		)
+		(pin "22"
+			(uuid "3cef07b8-0dac-4941-965e-f146b9100614")
+		)
+		(pin "53"
+			(uuid "f2eae427-eb65-431f-bcda-28b1a6a0543c")
+		)
+		(pin "60"
+			(uuid "38907ee7-42db-4e7d-8afa-01d95161a371")
+		)
+		(pin "38"
+			(uuid "16a31a88-9b6e-4822-beeb-a66c260de01b")
+		)
+		(pin "1"
+			(uuid "292c9810-6ed4-4473-9618-d618614a5f1d")
+		)
+		(pin "71"
+			(uuid "ae3edc5c-cb68-48f8-a5c3-426d924fdd6e")
+		)
+		(pin "3"
+			(uuid "a7ad7fcd-84d6-4bea-8c45-1b800f0a4462")
+		)
+		(pin "9"
+			(uuid "9b3a6cb6-c34c-4e2f-a219-15f6d695c351")
+		)
+		(pin "23"
+			(uuid "8954069c-bc68-4388-a14f-3a29a5153b6a")
+		)
+		(pin "51"
+			(uuid "758cce3e-e4cb-4b6a-838e-73db7beb7174")
+		)
+		(pin "45"
+			(uuid "16e9e544-68de-44ac-bea7-71b7521279fe")
+		)
+		(pin "57"
+			(uuid "77b95db0-92a4-4cf3-9bd0-370075f2754e")
+		)
+		(pin "74"
+			(uuid "38154fcf-c26e-40fb-a198-615a3b71ec88")
+		)
+		(pin "47"
+			(uuid "bdf041cc-15d3-4f50-b72e-f36564f6c6c1")
+		)
+		(pin "49"
+			(uuid "15ea9430-2051-4bd7-8930-9deaec3c2bb1")
+		)
+		(pin "17"
+			(uuid "fc9ae978-e64f-4dbc-be52-1c018b076d07")
+		)
+		(pin "68"
+			(uuid "15d3b390-780f-4e42-9ff8-368ae7844427")
+		)
+		(pin "66"
+			(uuid "438c3bc3-0f23-4ed7-bc6a-5afa71f7bd47")
+		)
+		(pin "15"
+			(uuid "6e5a5cd0-e245-42a2-8aed-e6d2b2c6164f")
+		)
+		(pin "19"
+			(uuid "3d2e9d13-e913-4bfc-b4ef-aa14acc104d2")
+		)
+		(pin "61"
+			(uuid "e33aa789-b146-4f94-8c80-c8bc85a3423f")
+		)
+		(pin "21"
+			(uuid "59f5293e-f7d2-43d9-b640-ce12d72ff782")
+		)
+		(pin "56"
+			(uuid "08e28665-d0f6-45ed-9de4-8c708f2379f7")
+		)
+		(pin "13"
+			(uuid "42ac62ec-8b02-4f68-b798-4c09434e3141")
+		)
+		(pin "MP"
+			(uuid "d63b6015-98c5-4187-95bb-8aa1155af261")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9189,7 +9592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35eb8a4a-7619-47f0-8120-e3127bbd6aa8")
-		(property "Reference" "C150"
+		(property "Reference" "C156"
 			(at 161.29 251.46 90)
 			(effects
 				(font
@@ -9279,7 +9682,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C150")
+					(reference "C156")
 					(unit 1)
 				)
 			)
@@ -9294,7 +9697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3710028c-5926-48f1-b144-2a3146db533d")
-		(property "Reference" "C148"
+		(property "Reference" "C144"
 			(at 144.018 73.66 90)
 			(effects
 				(font
@@ -9346,7 +9749,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C148")
+					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -9361,7 +9764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38ea6cf3-d7df-4ce4-bcd0-2d2fa3cdd089")
-		(property "Reference" "C158"
+		(property "Reference" "C145"
 			(at 439.928 76.2 90)
 			(effects
 				(font
@@ -9413,7 +9816,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C158")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -9428,7 +9831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39b2166e-6197-416e-a7ee-a8d5ccf322c2")
-		(property "Reference" "C156"
+		(property "Reference" "C141"
 			(at 439.928 68.58 90)
 			(effects
 				(font
@@ -9480,7 +9883,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C156")
+					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -9496,7 +9899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416c643f-d81d-4080-b06d-7d52aafafecf")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0136"
 			(at 419.1 255.27 0)
 			(effects
 				(font
@@ -9546,7 +9949,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0127")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -9621,6 +10024,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 414.02 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d60864-9d4b-430a-acf5-912f3cab22bf")
+		(property "Reference" "#PWR0122"
+			(at 414.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 414.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a20d2542-69ec-453a-814d-da3adcee9810")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 114.3 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9628,7 +10097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46d0dee8-f9f3-490b-8969-c1ec6f340468")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0123"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -9679,7 +10148,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0113")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -9694,7 +10163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e754ba0-293e-4d3c-9d47-45e831253f65")
-		(property "Reference" "C139"
+		(property "Reference" "C151"
 			(at 115.57 249.682 90)
 			(effects
 				(font
@@ -9782,7 +10251,74 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C139")
+					(reference "C151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 414.02 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56001014-5fa8-48f6-83bd-93c65ab6500e")
+		(property "Reference" "H6"
+			(at 416.56 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 416.56 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 414.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 414.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 414.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd07504-d98b-4e56-b0b5-c6627b886a17")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -9798,7 +10334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eb69874-4b9f-4380-9f8c-cdbe726c1814")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0141"
 			(at 114.3 306.07 0)
 			(effects
 				(font
@@ -9848,7 +10384,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0116")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -9864,7 +10400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f251dcf-b872-475d-af1f-6d58ebf88c26")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0140"
 			(at 459.74 279.4 0)
 			(effects
 				(font
@@ -9914,7 +10450,73 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0136")
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f447edf-1592-4208-86cf-b7cd8370ece1")
+		(property "Reference" "#PWR0120"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f5f500e-b652-4ff2-bb8b-98d7aa47de3d")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -9929,7 +10531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "720f4b00-dd40-4ea0-b0de-6af3221d1068")
-		(property "Reference" "C153"
+		(property "Reference" "C159"
 			(at 430.53 257.81 90)
 			(effects
 				(font
@@ -10019,7 +10621,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C153")
+					(reference "C159")
 					(unit 1)
 				)
 			)
@@ -10356,7 +10958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c051a8d-2ee3-4ada-89b6-ecc13afeb8c5")
-		(property "Reference" "C143"
+		(property "Reference" "C147"
 			(at 137.16 227.838 90)
 			(effects
 				(font
@@ -10444,71 +11046,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 121.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e1b05f2-eac7-441a-9f92-349437968e51")
-		(property "Reference" "H6"
-			(at 124.46 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 124.46 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "H6")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -10523,7 +11061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f30ac74-5675-4bbb-b79e-9ff5e868121c")
-		(property "Reference" "C146"
+		(property "Reference" "C140"
 			(at 144.018 66.04 90)
 			(effects
 				(font
@@ -10575,7 +11113,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C146")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -10724,7 +11262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84c5026d-d4a5-44dc-a5cd-3c7d9a143aba")
-		(property "Reference" "C154"
+		(property "Reference" "C160"
 			(at 435.61 257.81 90)
 			(effects
 				(font
@@ -10814,7 +11352,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C154")
+					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -10830,7 +11368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b51b4cb-0c68-4914-9cc7-6a378ae0b1de")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0143"
 			(at 440.69 350.52 0)
 			(effects
 				(font
@@ -10880,7 +11418,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0133")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -10896,7 +11434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90490ccb-504c-46bb-908b-dc27bcc081a3")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0133"
 			(at 114.3 248.92 0)
 			(effects
 				(font
@@ -10946,7 +11484,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0114")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10962,7 +11500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95cf1ef2-a94a-4b4c-9c3a-703fe1a20c83")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0135"
 			(at 464.82 254 0)
 			(effects
 				(font
@@ -11012,7 +11550,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0137")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -11028,7 +11566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95f0f5c2-1f85-4834-83df-d348d469a74b")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0121"
 			(at 455.93 85.09 0)
 			(effects
 				(font
@@ -11078,273 +11616,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Bus_M.2_Socket_E_1")
-		(lib_id "Connector:Bus_M.2_Socket_E")
-		(at 436.88 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "986fe5e5-3526-45be-b714-e89b3de5e7b4")
-		(property "Reference" "J8"
-			(at 439.0233 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Bus_M.2_Socket_E"
-			(at 439.0233 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA2KiCAD:CONN-SMD_AS0BC21-S48BE-7H"
-			(at 436.88 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
-			(at 436.88 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
-			(at 436.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "33"
-			(uuid "e2ecbc63-c997-4b09-b349-83849bc20b7b")
-		)
-		(pin "54"
-			(uuid "749e2894-9b3b-494c-8549-a5035b9c6ef4")
-		)
-		(pin "75"
-			(uuid "a7dac16b-e945-4ff9-8ec2-f7d333cf1ff4")
-		)
-		(pin "59"
-			(uuid "b2d6b394-3936-483c-9964-fa97c9486312")
-		)
-		(pin "20"
-			(uuid "e7cb3856-3cf6-40fa-90ca-4ea0094f4ca2")
-		)
-		(pin "8"
-			(uuid "cd35f58a-24b9-4fbf-bb4b-4d9ceb341571")
-		)
-		(pin "32"
-			(uuid "596ebb64-8008-42b2-93f7-35b14fca751f")
-		)
-		(pin "36"
-			(uuid "6ba25106-0d8c-42e4-b4d6-897f8c122cd8")
-		)
-		(pin "67"
-			(uuid "02d3e005-1529-47d9-89e5-5698acb621e8")
-		)
-		(pin "44"
-			(uuid "4c9fc715-6e89-4531-b162-fb6d1abfb700")
-		)
-		(pin "12"
-			(uuid "2b02b3f8-4bf6-4831-a270-9185e672a581")
-		)
-		(pin "6"
-			(uuid "bf5387d6-6cfa-4daf-abba-15e2c4a837dd")
-		)
-		(pin "46"
-			(uuid "0e650822-073d-4345-bf9e-f85ceda22fd5")
-		)
-		(pin "10"
-			(uuid "f679aa78-41b7-4870-a447-6b76898f76c2")
-		)
-		(pin "34"
-			(uuid "7b3e15aa-fced-4a01-bcac-d861df5a22fe")
-		)
-		(pin "7"
-			(uuid "c1ca8188-5615-489a-985d-7237cb20742d")
-		)
-		(pin "64"
-			(uuid "b62649e6-ceb1-4211-a935-49899ee558f5")
-		)
-		(pin "18"
-			(uuid "fd938a2f-8e42-448b-98c1-905f9adec808")
-		)
-		(pin "35"
-			(uuid "2fc3d6d8-aa7e-4bd9-a575-d7a3c0a0da18")
-		)
-		(pin "16"
-			(uuid "64a7fb24-455e-4797-ab01-3b4ae69c7bd6")
-		)
-		(pin "63"
-			(uuid "45ef0766-a87d-4f3d-81b1-098f6d1ea0a6")
-		)
-		(pin "11"
-			(uuid "875bd07e-10f8-4f84-997a-116a0678b0bb")
-		)
-		(pin "50"
-			(uuid "b2f7a602-19f1-40d0-8442-d357f65af7b8")
-		)
-		(pin "37"
-			(uuid "4ed6d9df-595f-472b-9854-a97edb77f823")
-		)
-		(pin "41"
-			(uuid "19fc85d7-5a80-4c0f-b840-ea52ab42c5aa")
-		)
-		(pin "43"
-			(uuid "0a2123c8-ec9a-4043-b8f1-94c3fc94fb2c")
-		)
-		(pin "42"
-			(uuid "b9b2ce25-9b45-484c-abfc-54ee801de2f0")
-		)
-		(pin "39"
-			(uuid "b1ff7204-2763-492f-92c7-82265583d5de")
-		)
-		(pin "2"
-			(uuid "0067add4-2edd-428d-8456-0114e9f24611")
-		)
-		(pin "73"
-			(uuid "20f5e5b8-cde4-4580-b87b-d39be6f82403")
-		)
-		(pin "70"
-			(uuid "8f96b314-15c4-47b5-b726-9636a6036528")
-		)
-		(pin "5"
-			(uuid "a552754d-404e-43fd-ae2b-7faed3559214")
-		)
-		(pin "72"
-			(uuid "e8b86afc-9eff-455a-b2b9-412af893122f")
-		)
-		(pin "4"
-			(uuid "7a2bd00d-123e-4800-98b4-8adb704733a7")
-		)
-		(pin "65"
-			(uuid "edc617ba-ae75-46ff-a7a0-eb82618fc852")
-		)
-		(pin "40"
-			(uuid "2055fa1b-4cbb-416e-9159-8d4543c23d48")
-		)
-		(pin "48"
-			(uuid "2c4ae957-dd78-4312-9afa-1f85b237c8f0")
-		)
-		(pin "69"
-			(uuid "a8488231-f9cd-4fff-a125-133d8f2967dc")
-		)
-		(pin "14"
-			(uuid "aa276b45-f1bb-4033-bd03-ff4211739a8e")
-		)
-		(pin "58"
-			(uuid "c9ee2a30-3653-4577-b9a0-5b03ee0e2f8e")
-		)
-		(pin "62"
-			(uuid "b45f2bc7-555e-42e8-bca8-dd5e73cc7e1d")
-		)
-		(pin "55"
-			(uuid "5b789539-e4c6-430e-b08e-542a6696acd9")
-		)
-		(pin "52"
-			(uuid "1ee86082-efa2-4ce0-bf04-73745d102e5a")
-		)
-		(pin "22"
-			(uuid "bd78a5fa-96d1-4e18-bd50-afb4ad94d006")
-		)
-		(pin "53"
-			(uuid "fc246330-7fd8-4913-8c4d-9ad8cc256c49")
-		)
-		(pin "60"
-			(uuid "932e3c27-2247-4d3a-b391-9f5225cd5541")
-		)
-		(pin "38"
-			(uuid "bc58d388-2831-463a-9970-ce97546c2da5")
-		)
-		(pin "1"
-			(uuid "3e4f1cd5-455b-4dde-a529-dd2998d22a7e")
-		)
-		(pin "71"
-			(uuid "cd94f845-4590-4df0-9584-31cea74c4b21")
-		)
-		(pin "3"
-			(uuid "78eb7932-1e54-4291-b2f7-dee29220e98e")
-		)
-		(pin "9"
-			(uuid "83e13670-9643-4b82-9ff2-2e7f15a56f84")
-		)
-		(pin "23"
-			(uuid "68d08328-f10f-4332-89b7-100be420c28e")
-		)
-		(pin "51"
-			(uuid "a1c239ed-18b8-4f40-8aba-6e497fb90cd0")
-		)
-		(pin "45"
-			(uuid "c17b4c4a-29f1-4a31-9326-0fcb625de906")
-		)
-		(pin "57"
-			(uuid "4dccd745-7837-4f8b-bb82-2334438fb3df")
-		)
-		(pin "74"
-			(uuid "33560553-9b65-4fc1-827b-c74b0724b35a")
-		)
-		(pin "47"
-			(uuid "86d84029-14c5-4fa0-b415-8968a6bc223b")
-		)
-		(pin "49"
-			(uuid "ffb6d0d1-c6d2-43c6-a2bd-b04e2bbf344e")
-		)
-		(pin "17"
-			(uuid "0e60b1b5-b166-4a9d-a51e-d9001512412a")
-		)
-		(pin "68"
-			(uuid "fa31fed4-5ab4-46a7-9365-4454a2c50af8")
-		)
-		(pin "66"
-			(uuid "9f61636c-e0f7-437c-86c1-2507cd06e33d")
-		)
-		(pin "15"
-			(uuid "8852d635-0605-4389-8f3b-a9eb44fa0225")
-		)
-		(pin "19"
-			(uuid "c25773bb-c1e4-4da0-bd8a-947d7dcf9e78")
-		)
-		(pin "61"
-			(uuid "116ac02d-7fb7-4259-b806-e39aa3ffb499")
-		)
-		(pin "21"
-			(uuid "10dc1860-4e23-471e-82bd-9e08da7a95d0")
-		)
-		(pin "56"
-			(uuid "e648d77e-f642-4159-a828-019cbc0a2f51")
-		)
-		(pin "13"
-			(uuid "2ab0c32b-3439-407a-bd09-9e6473831c1c")
-		)
-		(instances
-			(project "LattePandaMuCluster"
-				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "J8")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c8c20a-55c7-4761-aeb6-6fbc24d7f28d")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0124"
 			(at 403.86 93.98 0)
 			(effects
 				(font
@@ -11410,7 +11682,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0126")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -11425,7 +11697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f576b09-880c-45a0-b3c3-98391952b30b")
-		(property "Reference" "C142"
+		(property "Reference" "C154"
 			(at 130.81 251.46 90)
 			(effects
 				(font
@@ -11515,7 +11787,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C142")
+					(reference "C154")
 					(unit 1)
 				)
 			)
@@ -11530,7 +11802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1469d14-83cb-4197-9a28-0893f080bdad")
-		(property "Reference" "C152"
+		(property "Reference" "C158"
 			(at 425.45 255.778 90)
 			(effects
 				(font
@@ -11618,7 +11890,74 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C152")
+					(reference "C158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a931fd93-1d87-4f3e-8e6d-398700639f61")
+		(property "Reference" "H5"
+			(at 119.38 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 119.38 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bed17e7-9a01-4c23-a2e5-d8acd08a7e1d")
+		)
+		(instances
+			(project "LattePandaMuCluster"
+				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -11634,7 +11973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9decbaf-fdea-45d3-84c3-0fb4f8e7c46a")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0129"
 			(at 135.89 214.63 0)
 			(effects
 				(font
@@ -11684,7 +12023,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0117")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -11804,7 +12143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af1e2395-cb08-45bf-9286-7060b123d350")
-		(property "Reference" "C141"
+		(property "Reference" "C153"
 			(at 125.73 251.46 90)
 			(effects
 				(font
@@ -11894,7 +12233,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C141")
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -11909,7 +12248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0f0cb4c-9cea-4ffb-90ce-fc9f3834dde4")
-		(property "Reference" "C147"
+		(property "Reference" "C142"
 			(at 144.018 69.85 90)
 			(effects
 				(font
@@ -11961,14 +12300,14 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C147")
+					(reference "C142")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Bus_M.2_Socket_E_1")
+		(lib_name "Bus_M.2_Socket_E_2")
 		(lib_id "Connector:Bus_M.2_Socket_E")
 		(at 140.97 128.27 0)
 		(unit 1)
@@ -11978,7 +12317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c8b813-853c-4b5d-8857-801a0e717d19")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 143.1133 77.47 0)
 			(effects
 				(font
@@ -12224,74 +12563,13 @@
 		(pin "13"
 			(uuid "c2bb2285-2150-4e84-8dc8-160def19ea0b")
 		)
-		(instances
-			(project ""
-				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 419.1 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc0834b9-949e-4ecb-bbc6-c10e0b1456e6")
-		(property "Reference" "H8"
-			(at 421.64 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 421.64 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 419.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 419.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "MP"
+			(uuid "322f0f90-6a94-4708-ad3e-fbbff2f0bf3c")
 		)
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "H8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12307,7 +12585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0183d43-6a86-41cc-b6ad-21872631d797")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0142"
 			(at 419.1 312.42 0)
 			(effects
 				(font
@@ -12357,7 +12635,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0129")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -12372,7 +12650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0f5f465-4747-4a1a-94a7-0568e1f34552")
-		(property "Reference" "C157"
+		(property "Reference" "C143"
 			(at 439.928 72.39 90)
 			(effects
 				(font
@@ -12424,7 +12702,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C157")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -12439,7 +12717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c854e957-16ae-4694-a8b7-674bd692cb81")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0131"
 			(at 146.05 245.11 0)
 			(effects
 				(font
@@ -12489,7 +12767,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0121")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -12504,7 +12782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d181f412-b163-44af-b76b-7af52ba7ee38")
-		(property "Reference" "C159"
+		(property "Reference" "C146"
 			(at 439.928 80.01 90)
 			(effects
 				(font
@@ -12556,7 +12834,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C159")
+					(reference "C146")
 					(unit 1)
 				)
 			)
@@ -12572,7 +12850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29e7793-0b5a-44ea-b5fa-ff4676157b15")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0130"
 			(at 440.69 220.98 0)
 			(effects
 				(font
@@ -12622,7 +12900,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0132")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -12637,7 +12915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7315301-7299-4c20-9ad3-b379053eb8c7")
-		(property "Reference" "C144"
+		(property "Reference" "C148"
 			(at 142.24 227.838 90)
 			(effects
 				(font
@@ -12725,7 +13003,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C144")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -12741,7 +13019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8281506-c0f1-47b1-bc07-6f5b9beeabb1")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0117"
 			(at 140.97 64.77 0)
 			(effects
 				(font
@@ -12791,7 +13069,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0119")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -12874,7 +13152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00410b7-2fc3-477b-a5d9-1f05032e162b")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0128"
 			(at 436.88 194.31 0)
 			(effects
 				(font
@@ -12924,7 +13202,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0131")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -12940,7 +13218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e761cf5b-af6f-47c4-a66f-9debebec4d43")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0138"
 			(at 154.94 273.05 0)
 			(effects
 				(font
@@ -12990,7 +13268,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0122")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -13006,7 +13284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef4ec31d-4817-4bff-9d97-956fcc56d873")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 138.0333 332.74 0)
 			(effects
 				(font
@@ -13247,7 +13525,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -13328,7 +13606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ef3235-645d-4b04-82c3-a07bd0d11302")
-		(property "Reference" "C140"
+		(property "Reference" "C152"
 			(at 120.65 249.428 90)
 			(effects
 				(font
@@ -13416,7 +13694,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "C140")
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -13432,7 +13710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6f84724-f624-48c1-9af9-c689a57a9750")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0118"
 			(at 436.88 71.12 0)
 			(effects
 				(font
@@ -13482,7 +13760,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0130")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -13498,7 +13776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f73dc246-f9ee-4c92-9447-595ca36b61f5")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0139"
 			(at 419.1 279.4 0)
 			(effects
 				(font
@@ -13548,7 +13826,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0128")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -13564,7 +13842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbdc7c8f-9871-46cb-96ce-58dbbf1b6e1b")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0127"
 			(at 140.97 187.96 0)
 			(effects
 				(font
@@ -13614,7 +13892,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/9d5e3449-f80a-40f7-badf-e98b58cab83b"
-					(reference "#PWR0120")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
