@@ -10656,7 +10656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x4"
+		(property "Footprint" "EasyEDA2KiCAD:PCIE-TH_AAA-PCI-161-K03"
 			(at 440.69 309.88 0)
 			(effects
 				(font
@@ -13303,7 +13303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x4"
+		(property "Footprint" "EasyEDA2KiCAD:PCIE-TH_AAA-PCI-161-K03"
 			(at 135.89 303.53 0)
 			(effects
 				(font
