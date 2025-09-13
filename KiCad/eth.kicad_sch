@@ -28312,6 +28312,7 @@
 	(symbol
 		(lib_id "Transformer:30F-51NL")
 		(at 472.44 196.85 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28319,7 +28320,7 @@
 		(dnp no)
 		(uuid "152cd4c2-1990-4266-8049-df604440eda2")
 		(property "Reference" "TR4"
-			(at 472.44 171.45 0)
+			(at 472.44 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28327,7 +28328,7 @@
 			)
 		)
 		(property "Value" "QG2439S"
-			(at 472.44 173.99 0)
+			(at 472.44 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28335,7 +28336,7 @@
 			)
 		)
 		(property "Footprint" "Custom:QG2439S"
-			(at 464.82 189.23 0)
+			(at 464.82 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28344,7 +28345,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf"
-			(at 472.44 219.71 0)
+			(at 472.44 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34884,6 +34885,7 @@
 	(symbol
 		(lib_id "Transformer:30F-51NL")
 		(at 194.31 331.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34891,7 +34893,7 @@
 		(dnp no)
 		(uuid "55eaf893-bf5b-41c3-9b0f-8c263269ba19")
 		(property "Reference" "TR5"
-			(at 194.31 306.07 0)
+			(at 194.31 309.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34899,7 +34901,7 @@
 			)
 		)
 		(property "Value" "QG2439S"
-			(at 194.31 308.61 0)
+			(at 194.31 307.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34907,7 +34909,7 @@
 			)
 		)
 		(property "Footprint" "Custom:QG2439S"
-			(at 186.69 323.85 0)
+			(at 186.69 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34916,7 +34918,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf"
-			(at 194.31 354.33 0)
+			(at 194.31 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39294,15 +39296,15 @@
 	(symbol
 		(lib_id "Transformer:30F-51NL")
 		(at 474.98 78.74 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78026f27-f115-4c92-b336-703bc772f747")
 		(property "Reference" "TR2"
-			(at 474.98 53.34 0)
+			(at 474.98 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39310,7 +39312,7 @@
 			)
 		)
 		(property "Value" "QG2439S"
-			(at 474.98 55.88 0)
+			(at 474.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39318,7 +39320,7 @@
 			)
 		)
 		(property "Footprint" "Custom:QG2439S"
-			(at 467.36 71.12 0)
+			(at 467.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39327,7 +39329,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf"
-			(at 474.98 101.6 0)
+			(at 474.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41031,15 +41033,15 @@
 	(symbol
 		(lib_id "Transformer:30F-51NL")
 		(at 200.66 76.2 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8837f2cf-b919-4e6b-b742-820d4e5f46a7")
 		(property "Reference" "TR1"
-			(at 200.66 50.8 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41047,7 +41049,7 @@
 			)
 		)
 		(property "Value" "QG2439S"
-			(at 200.66 53.34 0)
+			(at 200.66 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41055,7 +41057,7 @@
 			)
 		)
 		(property "Footprint" "Custom:QG2439S"
-			(at 193.04 68.58 0)
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41064,7 +41066,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf"
-			(at 200.66 99.06 0)
+			(at 200.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44098,6 +44100,7 @@
 	(symbol
 		(lib_id "Transformer:30F-51NL")
 		(at 198.12 194.31 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44105,7 +44108,7 @@
 		(dnp no)
 		(uuid "a227cc67-cb2f-4820-8118-16135d856911")
 		(property "Reference" "TR3"
-			(at 198.12 168.91 0)
+			(at 198.12 172.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44113,7 +44116,7 @@
 			)
 		)
 		(property "Value" "QG2439S"
-			(at 198.12 171.45 0)
+			(at 198.12 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44121,7 +44124,7 @@
 			)
 		)
 		(property "Footprint" "Custom:QG2439S"
-			(at 190.5 186.69 0)
+			(at 190.5 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44130,7 +44133,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811051610_Shanghai-YDS-Tech-30F-51NL_C123168.pdf"
-			(at 198.12 217.17 0)
+			(at 198.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
