@@ -607,8 +607,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at -38.1 133.35 0)
+			(property "Reference" "A1"
+				(at 4.6833 135.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -617,15 +617,15 @@
 				)
 			)
 			(property "Value" "LattePanda_Mu"
-				(at 38.1 133.35 0)
+				(at 4.6833 133.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Module_LattePanda:LattePanda_Module_H8.0mm_Horizontal"
+			(property "Footprint" "124B-150A02:ATTEND_124B-150A02"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -3933,24 +3933,6 @@
 						)
 					)
 					(number "222"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -134.62 90)
-					(length 2.54)
-					(name "Mountinge_Pads"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7294,12 +7276,6 @@
 		(uuid "4dfec9d3-f6ad-4b51-aad5-bbcb1c1be3e8")
 	)
 	(junction
-		(at 284.48 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "540df614-c8f2-4a47-935c-a7fc83e6131f")
-	)
-	(junction
 		(at 346.71 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8902,16 +8878,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 345.44) (xy 284.48 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "340cc036-c4e7-49ad-ba83-ed72160f8174")
-	)
-	(wire
-		(pts
 			(xy 325.12 128.27) (xy 328.93 128.27)
 		)
 		(stroke
@@ -9822,7 +9788,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 345.44) (xy 284.48 346.71)
+			(xy 284.48 344.17) (xy 284.48 346.71)
 		)
 		(stroke
 			(width 0)
@@ -10722,16 +10688,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 344.17) (xy 284.48 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0af4bc2-80e7-4df5-aad0-960cc8ed0ae1")
-	)
-	(wire
-		(pts
 			(xy 220.98 68.58) (xy 220.98 69.85)
 		)
 		(stroke
@@ -11129,16 +11085,6 @@
 			(type default)
 		)
 		(uuid "e47818b0-577b-4b05-a505-1dc27adc4867")
-	)
-	(wire
-		(pts
-			(xy 281.94 344.17) (xy 281.94 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4fbc25f-7833-4a5d-9e20-a8b3a5902b6d")
 	)
 	(bus
 		(pts
@@ -17288,9 +17234,6 @@
 		)
 		(pin "230"
 			(uuid "2edd634f-e2ba-420a-a33a-820809c89b9a")
-		)
-		(pin "MP"
-			(uuid "27ebc158-fef5-4624-923e-1d2865ea136c")
 		)
 		(pin "157"
 			(uuid "2beaf16e-046c-462c-a833-ccfff33a5fbe")

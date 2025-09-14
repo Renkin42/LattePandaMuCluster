@@ -607,8 +607,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at -38.1 133.35 0)
+			(property "Reference" "A3"
+				(at 3.556 134.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -617,15 +617,15 @@
 				)
 			)
 			(property "Value" "LattePanda_Mu"
-				(at 38.1 133.35 0)
+				(at 3.302 133.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Module_LattePanda:LattePanda_Module_H8.0mm_Horizontal"
+			(property "Footprint" "124B-150A02:ATTEND_124B-150A02"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -3933,24 +3933,6 @@
 						)
 					)
 					(number "222"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -134.62 90)
-					(length 2.54)
-					(name "Mountinge_Pads"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7330,12 +7312,6 @@
 		(uuid "b4dadc18-f44f-4bd2-b5b5-ebc7d23a6dee")
 	)
 	(junction
-		(at 273.05 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b84dbc82-74db-4413-a911-25b2b16dbf13")
-	)
-	(junction
 		(at 392.43 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9073,16 +9049,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 341.63) (xy 273.05 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "574ea8a4-f9b2-4f2d-bfb2-dff923f13707")
-	)
-	(wire
-		(pts
 			(xy 350.52 91.44) (xy 369.57 91.44)
 		)
 		(stroke
@@ -9653,16 +9619,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 345.44) (xy 273.05 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96969003-fe65-4459-81ed-a658949fc70f")
-	)
-	(wire
-		(pts
 			(xy 203.2 146.05) (xy 232.41 146.05)
 		)
 		(stroke
@@ -10013,16 +9969,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 341.63) (xy 270.51 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94775f7-33cb-4be6-ba75-ed4debab73a8")
-	)
-	(wire
-		(pts
 			(xy 321.31 246.38) (xy 335.28 246.38)
 		)
 		(stroke
@@ -10183,7 +10129,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 345.44) (xy 273.05 347.98)
+			(xy 273.05 341.63) (xy 273.05 347.98)
 		)
 		(stroke
 			(width 0)
@@ -12922,9 +12868,6 @@
 		)
 		(pin "93"
 			(uuid "07b54628-fa8e-41f0-86b8-5a6f3f33afa6")
-		)
-		(pin "MP"
-			(uuid "e633824a-20ed-4fef-9140-c13945b3b8d5")
 		)
 		(pin "184"
 			(uuid "92c1a71e-4cd2-4a9b-a920-59a67ea4600f")
