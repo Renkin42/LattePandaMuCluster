@@ -638,48 +638,12 @@
       "Module 3"
     ],
     [
-      "f04bb0b7-922c-421e-b07f-dd537e954c3c",
-      "Module 4"
-    ],
-    [
-      "e7f83553-e8a1-45f7-8e56-c04956102afb",
-      "Module 5"
-    ],
-    [
       "73807de7-58af-4eca-b212-2dba82ac67f9",
       "PSU"
     ],
     [
-      "bfd1ee61-dc44-45a6-bff2-e5d6f196c61b",
-      "SATA"
-    ],
-    [
-      "9d5e3449-f80a-40f7-badf-e98b58cab83b",
-      "PCIE"
-    ],
-    [
-      "b79d08cf-a237-4144-bc11-622ab1e0c655",
-      "NVME"
-    ],
-    [
       "6eac886f-f669-4a66-b218-dbac55577930",
       "STM32"
-    ],
-    [
-      "6fff20ac-968f-4beb-b912-dfd1a1c23eba",
-      "Ethernet"
-    ],
-    [
-      "aeaf6077-b212-49fa-a33e-8ac7d8738247",
-      "USB"
-    ],
-    [
-      "0d5c85a9-6d90-4546-851e-a7debe6b8651",
-      "HDMI"
-    ],
-    [
-      "f577f65a-1a1c-4b75-8a85-8871ada08d9d",
-      "USB Type C"
     ]
   ],
   "text_variables": {}
