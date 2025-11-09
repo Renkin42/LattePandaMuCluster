@@ -381,7 +381,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 137.16) (xy 200.66 135.89)
+			(xy 193.04 135.89) (xy 193.04 163.83)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +481,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 158.75 134.62)
+			(xy 158.75 133.35) (xy 166.37 133.35)
 		)
 		(stroke
 			(width 0)
@@ -611,7 +611,7 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 139.7) (xy 189.23 139.7)
+			(xy 189.23 138.43) (xy 196.85 138.43)
 		)
 		(stroke
 			(width 0)
@@ -621,7 +621,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 139.7) (xy 189.23 161.29)
+			(xy 189.23 138.43) (xy 189.23 161.29)
 		)
 		(stroke
 			(width 0)
@@ -688,16 +688,6 @@
 			(type default)
 		)
 		(uuid "3a2263a5-007e-4817-8ad3-ad58aa9425d9")
-	)
-	(bus
-		(pts
-			(xy 184.15 139.7) (xy 184.15 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac961c8-ef54-4779-84d8-534ea53b94bc")
 	)
 	(bus
 		(pts
@@ -951,7 +941,7 @@
 	)
 	(bus
 		(pts
-			(xy 184.15 138.43) (xy 182.88 138.43)
+			(xy 182.88 138.43) (xy 187.96 138.43)
 		)
 		(stroke
 			(width 0)
@@ -969,16 +959,6 @@
 		)
 		(uuid "5f97b0bb-499a-4104-9805-cc1e867cac32")
 	)
-	(wire
-		(pts
-			(xy 160.02 134.62) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6207f4f1-17e5-4ad5-bb7a-e78e2fafc98f")
-	)
 	(bus
 		(pts
 			(xy 127 153.67) (xy 73.66 153.67)
@@ -988,26 +968,6 @@
 			(type default)
 		)
 		(uuid "64c745d0-4e5e-4809-9793-e55bb622ebf8")
-	)
-	(wire
-		(pts
-			(xy 200.66 137.16) (xy 193.04 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d5a09a-2c45-44a7-8acf-5484eac95318")
-	)
-	(bus
-		(pts
-			(xy 184.15 139.7) (xy 187.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6880b603-19f3-4a70-8de5-3d73ee3c1bdf")
 	)
 	(bus
 		(pts
@@ -1081,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 133.35) (xy 196.85 133.35)
+			(xy 191.77 133.35) (xy 196.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1091,7 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 139.7) (xy 187.96 160.02)
+			(xy 187.96 138.43) (xy 187.96 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 160.02 137.16)
+			(xy 160.02 135.89) (xy 166.37 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1179,16 +1139,6 @@
 		)
 		(uuid "7fbe13f1-da0b-4c06-92ac-fee52408ad37")
 	)
-	(wire
-		(pts
-			(xy 191.77 134.62) (xy 191.77 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80dbd9e3-c83d-4694-b8dc-6e5bd05eeb97")
-	)
 	(bus
 		(pts
 			(xy 125.73 130.81) (xy 125.73 156.21)
@@ -1211,7 +1161,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 196.85 135.89)
+			(xy 193.04 135.89) (xy 196.85 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1371,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 134.62) (xy 158.75 160.02)
+			(xy 158.75 133.35) (xy 158.75 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 134.62) (xy 198.12 133.35)
+			(xy 191.77 133.35) (xy 191.77 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1408,16 +1358,6 @@
 			(type default)
 		)
 		(uuid "a319d731-3d5c-4901-9294-6886d7d18c51")
-	)
-	(wire
-		(pts
-			(xy 162.56 137.16) (xy 162.56 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d719de-6ed6-433d-8847-7548364461fb")
 	)
 	(wire
 		(pts
@@ -1488,16 +1428,6 @@
 			(type default)
 		)
 		(uuid "a9e0ba55-ee82-41c2-aeb1-35d570d60e0a")
-	)
-	(wire
-		(pts
-			(xy 160.02 133.35) (xy 166.37 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abaeee12-db32-4186-92d2-fd16213ba9f5")
 	)
 	(bus
 		(pts
@@ -1671,16 +1601,6 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 138.43) (xy 196.85 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6c1e9af-ad4d-46b2-aace-3266086a917d")
-	)
-	(bus
-		(pts
 			(xy 50.8 137.16) (xy 63.5 137.16)
 		)
 		(stroke
@@ -1688,16 +1608,6 @@
 			(type default)
 		)
 		(uuid "c7b2d5dd-3ed9-4af2-b2f8-d6cedfd85ee0")
-	)
-	(bus
-		(pts
-			(xy 194.31 139.7) (xy 194.31 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c825eced-95e6-41c5-ad5b-32e6e41e8a10")
 	)
 	(wire
 		(pts
@@ -1708,6 +1618,16 @@
 			(type default)
 		)
 		(uuid "c826f8bb-0e66-48d1-8489-8db4df93f678")
+	)
+	(bus
+		(pts
+			(xy 88.9 133.35) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e7e380-aa5a-4da7-adf4-17122d2a139d")
 	)
 	(bus
 		(pts
@@ -1839,16 +1759,6 @@
 		)
 		(uuid "e549949f-0b63-4fb9-a4e1-df43bfde929b")
 	)
-	(wire
-		(pts
-			(xy 162.56 135.89) (xy 166.37 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e820aa72-7424-4f40-9eda-fa627a706f13")
-	)
 	(bus
 		(pts
 			(xy 134.62 133.35) (xy 127 133.35)
@@ -1858,16 +1768,6 @@
 			(type default)
 		)
 		(uuid "e9efd191-234d-46c7-899a-13d260bbe5a0")
-	)
-	(wire
-		(pts
-			(xy 193.04 137.16) (xy 193.04 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f3da8f-2a04-4f57-972e-548fa2ce89e4")
 	)
 	(bus
 		(pts
@@ -1891,7 +1791,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 137.16) (xy 160.02 161.29)
+			(xy 160.02 135.89) (xy 160.02 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1938,16 +1838,6 @@
 			(type default)
 		)
 		(uuid "f9b2b4eb-0b3d-451e-9cea-50e69f9f702a")
-	)
-	(wire
-		(pts
-			(xy 198.12 134.62) (xy 191.77 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa549105-ac16-408c-a297-569109357e5e")
 	)
 	(bus
 		(pts
@@ -3194,16 +3084,6 @@
 				(justify left)
 			)
 		)
-		(pin "M2_EKEY{PCIE}" input
-			(at 152.4 130.81 0)
-			(uuid "79d9d016-14e5-4753-87ff-3576339cb806")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RUSB{USB3}" input
 			(at 134.62 133.35 180)
 			(uuid "d38ce1cf-71b6-47a9-8c3b-d84824a9cdeb")
@@ -3272,6 +3152,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PCIE_X1{PCIE}" input
+			(at 152.4 130.81 0)
+			(uuid "8d132f07-6e24-4d32-8de1-54ca935de6a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -4050,6 +3940,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "M2_EKEY{PCIE}" input
+			(at 88.9 133.35 0)
+			(uuid "f9e2c939-9129-4287-8510-d364d1854ee8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

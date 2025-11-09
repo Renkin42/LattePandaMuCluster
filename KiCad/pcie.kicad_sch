@@ -15691,7 +15691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x1"
+		(property "Footprint" "EasyEDA2KiCAD:CONN-TH_HYCW05-PCI36-155B"
 			(at 121.92 298.45 0)
 			(effects
 				(font
