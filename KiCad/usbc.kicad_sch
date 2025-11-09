@@ -7846,7 +7846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1283831b-cdc3-4867-b36d-89a134836b7f")
-		(property "Reference" "C333"
+		(property "Reference" "C343"
 			(at 85.09 22.606 0)
 			(effects
 				(font
@@ -7900,7 +7900,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C333")
+					(reference "C343")
 					(unit 1)
 				)
 			)
@@ -8003,7 +8003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f5753d-a5cc-4725-857b-5d7b5eec6c32")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0338"
 			(at 74.93 27.94 0)
 			(effects
 				(font
@@ -8053,7 +8053,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0330")
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2be21a57-bd1e-46f6-af88-24ec85487e47")
-		(property "Reference" "C340"
+		(property "Reference" "C350"
 			(at 257.048 58.42 90)
 			(effects
 				(font
@@ -8211,7 +8211,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C340")
+					(reference "C350")
 					(unit 1)
 				)
 			)
@@ -8227,7 +8227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b45f77-0cd0-4041-a70a-7cf691cb6dde")
-		(property "Reference" "#PWR0346"
+		(property "Reference" "#PWR0354"
 			(at 267.97 133.35 0)
 			(effects
 				(font
@@ -8277,7 +8277,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0346")
+					(reference "#PWR0354")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3195b1a1-4413-4843-9ea7-4fc39eb14b82")
-		(property "Reference" "#PWR0337"
+		(property "Reference" "#PWR0345"
 			(at 229.87 67.31 0)
 			(effects
 				(font
@@ -8343,7 +8343,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0337")
+					(reference "#PWR0345")
 					(unit 1)
 				)
 			)
@@ -8359,7 +8359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "342ccad2-7719-4592-a747-c218d6fa3468")
-		(property "Reference" "#PWR0350"
+		(property "Reference" "#PWR0358"
 			(at 44.45 154.94 0)
 			(effects
 				(font
@@ -8409,7 +8409,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0350")
+					(reference "#PWR0358")
 					(unit 1)
 				)
 			)
@@ -8424,7 +8424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35dfb9d4-4467-4b85-b8c7-07985ea51fac")
-		(property "Reference" "C335"
+		(property "Reference" "C345"
 			(at 97.79 25.146 90)
 			(effects
 				(font
@@ -8476,7 +8476,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C335")
+					(reference "C345")
 					(unit 1)
 				)
 			)
@@ -8492,7 +8492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "377dda1c-8e82-4775-929e-f022b5f76452")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0341"
 			(at 100.33 29.21 0)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0333")
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -8798,7 +8798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48aeee36-4a71-4c21-a947-fb827023e88f")
-		(property "Reference" "C342"
+		(property "Reference" "C352"
 			(at 257.048 63.5 90)
 			(effects
 				(font
@@ -8850,7 +8850,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C342")
+					(reference "C352")
 					(unit 1)
 				)
 			)
@@ -8865,7 +8865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c524ba0-f1d0-4323-a79f-98bfc244c45c")
-		(property "Reference" "C334"
+		(property "Reference" "C344"
 			(at 92.71 25.146 90)
 			(effects
 				(font
@@ -8917,7 +8917,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C334")
+					(reference "C344")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f9969b5-eeaa-409e-93d9-0c2c77c944ff")
-		(property "Reference" "R219"
+		(property "Reference" "R212"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -8986,7 +8986,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "R219")
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -9002,7 +9002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51704144-fdd2-496c-8bfa-bab682fdd4a4")
-		(property "Reference" "#PWR0328"
+		(property "Reference" "#PWR0336"
 			(at 83.82 12.7 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0328")
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -9159,7 +9159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a48ba45-743f-4ef3-8e3c-39a55f1d06fb")
-		(property "Reference" "#PWR0341"
+		(property "Reference" "#PWR0349"
 			(at 35.56 113.03 0)
 			(effects
 				(font
@@ -9209,7 +9209,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0341")
+					(reference "#PWR0349")
 					(unit 1)
 				)
 			)
@@ -9224,7 +9224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "622c8599-1261-4cc7-b183-dcca0dd01e4b")
-		(property "Reference" "R217"
+		(property "Reference" "R210"
 			(at 41.148 111.76 0)
 			(effects
 				(font
@@ -9278,7 +9278,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "R217")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -9294,7 +9294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "634b3bce-6045-46ca-9f39-1efa08ed8bb9")
-		(property "Reference" "R221"
+		(property "Reference" "R214"
 			(at 138.43 160.0199 0)
 			(effects
 				(font
@@ -9348,7 +9348,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "R221")
+					(reference "R214")
 					(unit 1)
 				)
 			)
@@ -9364,7 +9364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64b97282-3827-47fe-b298-25eb9a2cebda")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR0347"
 			(at 69.85 92.71 0)
 			(effects
 				(font
@@ -9414,7 +9414,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0339")
+					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
@@ -9430,7 +9430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65a87eb8-8e99-48cd-a917-a3c959626531")
-		(property "Reference" "C345"
+		(property "Reference" "C355"
 			(at 149.86 129.5462 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C345")
+					(reference "C355")
 					(unit 1)
 				)
 			)
@@ -9500,7 +9500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c308377-a8bc-42fe-bfba-be6d728eb732")
-		(property "Reference" "#PWR0353"
+		(property "Reference" "#PWR0361"
 			(at 135.89 172.72 0)
 			(effects
 				(font
@@ -9550,7 +9550,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0353")
+					(reference "#PWR0361")
 					(unit 1)
 				)
 			)
@@ -9810,7 +9810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c7c2cb-4f52-41be-807d-3b6c424c60cd")
-		(property "Reference" "#PWR0345"
+		(property "Reference" "#PWR0353"
 			(at 212.09 133.35 0)
 			(effects
 				(font
@@ -9860,7 +9860,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0345")
+					(reference "#PWR0353")
 					(unit 1)
 				)
 			)
@@ -9876,7 +9876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783022ff-e986-4df7-b012-51a99fe895c0")
-		(property "Reference" "#PWR0336"
+		(property "Reference" "#PWR0344"
 			(at 194.31 67.31 0)
 			(effects
 				(font
@@ -9926,7 +9926,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0336")
+					(reference "#PWR0344")
 					(unit 1)
 				)
 			)
@@ -10010,7 +10010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c86a96c-1d2b-4cb9-a981-1092c2875140")
-		(property "Reference" "J27"
+		(property "Reference" "J25"
 			(at 268.478 69.088 0)
 			(effects
 				(font
@@ -10121,7 +10121,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "J27")
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -10137,7 +10137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82673293-b703-4a17-85fb-2dadb6ed5bb6")
-		(property "Reference" "#PWR0352"
+		(property "Reference" "#PWR0360"
 			(at 237.49 163.83 0)
 			(effects
 				(font
@@ -10187,7 +10187,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0352")
+					(reference "#PWR0360")
 					(unit 1)
 				)
 			)
@@ -10203,7 +10203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88bea715-3c56-48f3-b6cb-393fd5a9187c")
-		(property "Reference" "#PWR0329"
+		(property "Reference" "#PWR0337"
 			(at 105.41 16.51 0)
 			(effects
 				(font
@@ -10253,7 +10253,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0329")
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)
@@ -10360,7 +10360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95b11fb2-e38d-4922-8d34-59e26186b73e")
-		(property "Reference" "C332"
+		(property "Reference" "C342"
 			(at 82.55 22.606 0)
 			(effects
 				(font
@@ -10414,7 +10414,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C332")
+					(reference "C342")
 					(unit 1)
 				)
 			)
@@ -10430,7 +10430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95fd089b-1dc7-4d07-8fd3-92332080e895")
-		(property "Reference" "#PWR0347"
+		(property "Reference" "#PWR0355"
 			(at 147.32 140.97 0)
 			(effects
 				(font
@@ -10480,7 +10480,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0347")
+					(reference "#PWR0355")
 					(unit 1)
 				)
 			)
@@ -10565,7 +10565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "988ee5ad-bb4b-44be-94c1-e9e8fe2bb922")
-		(property "Reference" "R220"
+		(property "Reference" "R213"
 			(at 138.43 152.3999 0)
 			(effects
 				(font
@@ -10619,7 +10619,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "R220")
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -10635,7 +10635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991ae1af-3169-4d0f-a59a-cc051a3c5a3a")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0340"
 			(at 95.25 19.05 0)
 			(effects
 				(font
@@ -10685,7 +10685,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0332")
+					(reference "#PWR0340")
 					(unit 1)
 				)
 			)
@@ -10700,7 +10700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a32d74f4-1504-4ddf-b446-8141d1ad5e14")
-		(property "Reference" "#PWR0348"
+		(property "Reference" "#PWR0356"
 			(at 31.75 149.86 0)
 			(effects
 				(font
@@ -10750,7 +10750,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0348")
+					(reference "#PWR0356")
 					(unit 1)
 				)
 			)
@@ -10766,7 +10766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34ab851-2f94-496a-a56a-462cfdc3f896")
-		(property "Reference" "#PWR0340"
+		(property "Reference" "#PWR0348"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0340")
+					(reference "#PWR0348")
 					(unit 1)
 				)
 			)
@@ -10831,7 +10831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af792cc8-c67e-4c16-b471-661154d4cba2")
-		(property "Reference" "C339"
+		(property "Reference" "C349"
 			(at 257.048 55.88 90)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C339")
+					(reference "C349")
 					(unit 1)
 				)
 			)
@@ -10898,7 +10898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1db475e-dec0-4541-9b88-bdc63170d987")
-		(property "Reference" "C338"
+		(property "Reference" "C348"
 			(at 71.12 24.384 90)
 			(effects
 				(font
@@ -10950,7 +10950,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C338")
+					(reference "C348")
 					(unit 1)
 				)
 			)
@@ -10966,7 +10966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b610637d-d4b8-4bd4-bf71-0b3e7136581d")
-		(property "Reference" "C346"
+		(property "Reference" "C356"
 			(at 31.75 148.5962 0)
 			(effects
 				(font
@@ -11020,7 +11020,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C346")
+					(reference "C356")
 					(unit 1)
 				)
 			)
@@ -11035,7 +11035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc50ac6-8051-4147-9622-cbf9a68879dc")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0339"
 			(at 90.17 29.21 0)
 			(effects
 				(font
@@ -11085,7 +11085,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0331")
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -11100,7 +11100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c08188e5-c34d-42a5-8b3d-51ea6e6cba7d")
-		(property "Reference" "#PWR0335"
+		(property "Reference" "#PWR0343"
 			(at 246.38 57.15 0)
 			(effects
 				(font
@@ -11151,7 +11151,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0335")
+					(reference "#PWR0343")
 					(unit 1)
 				)
 			)
@@ -11166,7 +11166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c167015b-4815-4664-a907-08e5aa415081")
-		(property "Reference" "R216"
+		(property "Reference" "R209"
 			(at 36.068 111.76 0)
 			(effects
 				(font
@@ -11220,7 +11220,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "R216")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -11236,7 +11236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c27a8800-4acf-4a2d-9578-f978d646a09e")
-		(property "Reference" "#PWR0344"
+		(property "Reference" "#PWR0352"
 			(at 144.78 125.73 0)
 			(effects
 				(font
@@ -11286,7 +11286,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0344")
+					(reference "#PWR0352")
 					(unit 1)
 				)
 			)
@@ -11301,7 +11301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2810f13-0200-42e1-aeed-d0605081b788")
-		(property "Reference" "#PWR0338"
+		(property "Reference" "#PWR0346"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -11351,7 +11351,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0338")
+					(reference "#PWR0346")
 					(unit 1)
 				)
 			)
@@ -11366,7 +11366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c573aa0c-74a7-47fb-885e-ca254eeed9a9")
-		(property "Reference" "C344"
+		(property "Reference" "C354"
 			(at 147.32 114.3062 0)
 			(effects
 				(font
@@ -11420,7 +11420,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C344")
+					(reference "C354")
 					(unit 1)
 				)
 			)
@@ -11436,7 +11436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca03329-6f64-4326-b839-42afcfcf5411")
-		(property "Reference" "C343"
+		(property "Reference" "C353"
 			(at 118.11 87.6362 0)
 			(effects
 				(font
@@ -11490,7 +11490,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C343")
+					(reference "C353")
 					(unit 1)
 				)
 			)
@@ -11506,7 +11506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d21a0f15-6e6e-4fc6-8e72-11787b5b8082")
-		(property "Reference" "R218"
+		(property "Reference" "R211"
 			(at 45.72 117.348 0)
 			(effects
 				(font
@@ -11560,7 +11560,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "R218")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -11575,7 +11575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d31095dd-8737-46f2-b017-9b5124cf2db8")
-		(property "Reference" "C337"
+		(property "Reference" "C347"
 			(at 113.284 26.162 0)
 			(effects
 				(font
@@ -11629,7 +11629,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C337")
+					(reference "C347")
 					(unit 1)
 				)
 			)
@@ -11645,7 +11645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35cc30a-184e-4378-818d-2818cc44ffd0")
-		(property "Reference" "#PWR0351"
+		(property "Reference" "#PWR0359"
 			(at 29.21 160.02 0)
 			(effects
 				(font
@@ -11695,7 +11695,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0351")
+					(reference "#PWR0359")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbedf9d2-8c2a-44f1-9e63-0f9f816b004b")
-		(property "Reference" "C336"
+		(property "Reference" "C346"
 			(at 105.664 26.162 0)
 			(effects
 				(font
@@ -11764,7 +11764,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C336")
+					(reference "C346")
 					(unit 1)
 				)
 			)
@@ -11780,7 +11780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e079f476-fb03-46e8-b335-2022899bf2a4")
-		(property "Reference" "#PWR0349"
+		(property "Reference" "#PWR0357"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -11830,7 +11830,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0349")
+					(reference "#PWR0357")
 					(unit 1)
 				)
 			)
@@ -11912,7 +11912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f999f65a-52b2-4cfb-8f76-9f49a6036a29")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR0342"
 			(at 67.31 38.1 0)
 			(effects
 				(font
@@ -11962,7 +11962,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0334")
+					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -11979,7 +11979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fab941ab-bf52-4899-9fe9-c8693d5ae750")
-		(property "Reference" "#PWR0342"
+		(property "Reference" "#PWR0350"
 			(at 50.8 105.41 0)
 			(effects
 				(font
@@ -12029,7 +12029,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0342")
+					(reference "#PWR0350")
 					(unit 1)
 				)
 			)
@@ -12044,7 +12044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd297b5e-6d1d-433f-94b0-b78d631ac2bf")
-		(property "Reference" "C341"
+		(property "Reference" "C351"
 			(at 257.048 60.96 90)
 			(effects
 				(font
@@ -12096,7 +12096,7 @@
 		(instances
 			(project "LattePandaMuCluster"
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "C341")
+					(reference "C351")
 					(unit 1)
 				)
 			)
@@ -12112,7 +12112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe5cfa11-4655-47c3-ae94-c82572262ac4")
-		(property "Reference" "#PWR0343"
+		(property "Reference" "#PWR0351"
 			(at 29.21 111.76 0)
 			(effects
 				(font
@@ -12162,7 +12162,7 @@
 		(instances
 			(project ""
 				(path "/49abeb3a-c598-45a3-ba6b-595eb04f17a8/f577f65a-1a1c-4b75-8a85-8871ada08d9d"
-					(reference "#PWR0343")
+					(reference "#PWR0351")
 					(unit 1)
 				)
 			)
