@@ -7390,6 +7390,10 @@
 		(uuid "23a6a4e6-85ed-411c-a9dd-58d5554a03e8")
 	)
 	(no_connect
+		(at 232.41 204.47)
+		(uuid "2d6c77e1-c516-44cf-aae0-1866a24229c0")
+	)
+	(no_connect
 		(at 232.41 285.75)
 		(uuid "2d84dc38-ff28-48cc-96a1-474ce19689b8")
 	)
@@ -7492,6 +7496,10 @@
 	(no_connect
 		(at 313.69 312.42)
 		(uuid "64185b56-1d13-448a-b2a9-95fc3fe29789")
+	)
+	(no_connect
+		(at 232.41 201.93)
+		(uuid "659bcdd6-425e-4e7c-9fef-0129140fc5fb")
 	)
 	(no_connect
 		(at 313.69 101.6)
@@ -7873,15 +7881,6 @@
 		(uuid "50e0648e-c982-48ea-98ec-7b054f87e530")
 	)
 	(bus_entry
-		(at 199.39 199.39)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4b4c6d-3ee3-4ccf-9ea2-8be0453ec719")
-	)
-	(bus_entry
 		(at 199.39 184.15)
 		(size 2.54 2.54)
 		(stroke
@@ -8240,15 +8239,6 @@
 			(type default)
 		)
 		(uuid "f4f7a387-9c5b-417f-b867-2e3e9e8356fe")
-	)
-	(bus_entry
-		(at 199.39 201.93)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd17437d-172c-4d9e-97d3-576161452a87")
 	)
 	(wire
 		(pts
@@ -9362,16 +9352,6 @@
 	)
 	(bus
 		(pts
-			(xy 199.39 198.12) (xy 199.39 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794aeba2-503e-40f8-bdb3-53c17fd55fb3")
-	)
-	(bus
-		(pts
 			(xy 196.85 134.62) (xy 200.66 134.62)
 		)
 		(stroke
@@ -9379,16 +9359,6 @@
 			(type default)
 		)
 		(uuid "7b21b516-e976-4945-a392-721342c44ca2")
-	)
-	(wire
-		(pts
-			(xy 201.93 204.47) (xy 232.41 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bec043d-fc98-4157-96ee-6b236134943e")
 	)
 	(wire
 		(pts
@@ -10040,16 +10010,6 @@
 		)
 		(uuid "bffe7a4d-e7f7-49d5-bd67-047c17752a24")
 	)
-	(bus
-		(pts
-			(xy 199.39 199.39) (xy 199.39 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29ebc6b-ffdc-4a3d-99be-cad1df8b4ce9")
-	)
 	(wire
 		(pts
 			(xy 313.69 121.92) (xy 369.57 121.92)
@@ -10402,16 +10362,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 201.93) (xy 232.41 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e20adbec-49a8-440e-8469-46bfa2229f73")
-	)
-	(wire
-		(pts
 			(xy 275.59 68.58) (xy 275.59 69.85)
 		)
 		(stroke
@@ -10699,16 +10649,6 @@
 			(justify left bottom)
 		)
 		(uuid "070283af-7a26-4d75-af13-d0ab2c6f5d27")
-	)
-	(label "PCIE_X1.USB-D-"
-		(at 203.2 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08d2e3df-589c-41cd-ab2e-8fcac758fcb2")
 	)
 	(label "SATA2.Rx-"
 		(at 204.47 176.53 0)
@@ -11050,16 +10990,6 @@
 		)
 		(uuid "a1b0679c-250a-4107-9454-7392b4bb1256")
 	)
-	(label "PCIE_X1{PCIE}"
-		(at 199.39 198.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1b16634-b4d5-4f6d-8aff-f8d46f5e2a5e")
-	)
 	(label "NVME.SUSCLK"
 		(at 316.23 163.83 0)
 		(effects
@@ -11139,16 +11069,6 @@
 			(justify left bottom)
 		)
 		(uuid "c076d76a-c20b-486f-8748-4ef948f71424")
-	)
-	(label "PCIE_X1.USB-D+"
-		(at 203.2 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7519bb8-406a-42a4-8ea5-9520ff55f51c")
 	)
 	(label "ETH.Rx0+"
 		(at 203.2 186.69 0)
