@@ -6551,10 +6551,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SFF-8087"
 			(at 0 0 0)
 			(effects
 				(font
