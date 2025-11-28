@@ -5315,7 +5315,7 @@
 			(pin output line
 				(at -27.94 35.56 0)
 				(length 2.54)
-				(name "Tx+"
+				(name "HSOP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5333,7 +5333,7 @@
 			(pin output line
 				(at -27.94 33.02 0)
 				(length 2.54)
-				(name "Tx-"
+				(name "HSON"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5351,7 +5351,7 @@
 			(pin input line
 				(at -27.94 30.48 0)
 				(length 2.54)
-				(name "Rx+"
+				(name "HSIP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5369,7 +5369,7 @@
 			(pin input line
 				(at -27.94 27.94 0)
 				(length 2.54)
-				(name "Rx-"
+				(name "HSIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5866,7 +5866,7 @@
 			(pin bidirectional line
 				(at 27.94 43.18 180)
 				(length 2.54)
-				(name "MDI[0]+"
+				(name "MDIP0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5884,7 +5884,7 @@
 			(pin bidirectional line
 				(at 27.94 40.64 180)
 				(length 2.54)
-				(name "MDI[0]-"
+				(name "MDIN0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5902,7 +5902,7 @@
 			(pin bidirectional line
 				(at 27.94 38.1 180)
 				(length 2.54)
-				(name "MDI[1]+"
+				(name "MDIP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5920,7 +5920,7 @@
 			(pin bidirectional line
 				(at 27.94 35.56 180)
 				(length 2.54)
-				(name "MDI[1]-"
+				(name "MDIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5938,7 +5938,7 @@
 			(pin bidirectional line
 				(at 27.94 33.02 180)
 				(length 2.54)
-				(name "MDI[2]+"
+				(name "MDIP2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5956,7 +5956,7 @@
 			(pin bidirectional line
 				(at 27.94 30.48 180)
 				(length 2.54)
-				(name "MDI[2]-"
+				(name "MDIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5974,7 +5974,7 @@
 			(pin bidirectional line
 				(at 27.94 27.94 180)
 				(length 2.54)
-				(name "MDI[3]+"
+				(name "MDIP3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5992,7 +5992,7 @@
 			(pin bidirectional line
 				(at 27.94 25.4 180)
 				(length 2.54)
-				(name "MDI[3]-"
+				(name "MDIN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6553,7 +6553,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SFF-8087"
 			(at 0 0 0)
 			(effects
 				(font
